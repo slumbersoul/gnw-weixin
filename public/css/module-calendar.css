@@ -1,0 +1,17 @@
+.cal-table{width:840px;}
+.cal-table .cal-head{background:#4a9cef;}
+.cal-table .cal-head .cal-head-tr{height:40px;border-right:1px solid #4a9cef;}
+.cal-table .cal-head .cal-head-tr .cal-head-td{height:40px;}
+.cal-table .cal-head .cal-head-tr .cal-head-td .week{margin:0;height:40px;line-height:40px;font-family:Verdana, Arial, Helvetica, sans-serif,"宋体";color:white;font-size:14px;font-weight:lighter;}
+.cal-table .cal-body{}
+.cal-table .cal-body .cal-body-tr{height:60px;}
+.cal-table .cal-body .cal-body-tr .cal-body-td{height:60px;border:1px solid #dedede;position:relative;}
+.cal-table .cal-body .cal-body-tr .cal-body-td .cal-feed{position:absolute;top:5px;left:8px;font-family:Verdana, Arial, Helvetica, sans-serif,"宋体";color:#4a4a4a;font-size:12px;font-weight:normal;}
+.cal-table .cal-body .cal-body-tr .cal-body-td .cal-tip{position:absolute;top:12px;left:49px;font-family:"微软雅黑",Verdana, Arial, Helvetica, sans-serif,"宋体";color:red;font-size:22px;font-weight:normal;}
+
+.cal-select{width:838px;height:50px;border:1px solid #dedede;border-bottom:none;position:relative;}
+.cal-select .cal-sel-text{width:838px;text-align:center;line-height:46px;font-family:"微软雅黑",Verdana, Arial, Helvetica, sans-serif,"宋体";font-size:18px;font-weight:normal;}
+.cal-select .cal-sel-left{position:absolute;top:12px;left:15px;background:url(/img/cal_icon_left_normal.png);width:15px;height:25px;overflow:hidden;cursor:pointer;}
+.cal-select .cal-sel-right{position:absolute;top:12px;right:15px;background:url(/img/cal_icon_right_normal.png);width:15px;height:25px;overflow:hidden;cursor:pointer;}
+
+

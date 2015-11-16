@@ -1,0 +1,624 @@
+2015-05-26 00:04:28 uri:/novel/more?category=50114&search=0_%E7%A4%BE%E4%BC%9A%E6%B0%91%E4%BF%97; code:error; msg:SQLSTATE[42S22]: Column not found: 1054 Unknown column 'novel_tags_s' in 'where clause'-exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'novel_tags_s' in 'where clause'' in /var/www/html/www.igmoo.cn/modules/web/classes/zpdo/natural.php:110
+Stack trace:
+#0 /var/www/html/www.igmoo.cn/modules/web/classes/zpdo/natural.php(110): PDOStatement->execute()
+#1 /var/www/html/www.igmoo.cn/application/classes/model/novel.php(150): Zpdo_Natural->get_all('select * from I...')
+#2 /var/www/html/www.igmoo.cn/application/classes/controller/novel.php(102): Model_Novel->get_novellist_for_search(1, 40, '`category_id` =...')
+#3 [internal function]: Controller_Novel->action_more()
+#4 /var/www/html/www.igmoo.cn/system/classes/kohana/request/client/internal.php(118): ReflectionMethod->invoke(Object(Controller_Novel))
+#5 /var/www/html/www.igmoo.cn/system/classes/kohana/request/client.php(64): Kohana_Request_Client_Internal->execute_request(Object(Request))
+#6 /var/www/html/www.igmoo.cn/system/classes/kohana/request.php(1136): Kohana_Request_Client->execute(Object(Request))
+#7 /var/www/html/www.igmoo.cn/public/index.php(118): Kohana_Request->execute()
+#8 {main}; referer:
+2015-05-26 00:08:14 uri:/novel/more?category=50113&search=2_%E4%BA%B2%E5%AD%90%E6%95%99%E8%82%B2; code:error; msg:SQLSTATE[42S22]: Column not found: 1054 Unknown column 'novel_tags_s' in 'where clause'-exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'novel_tags_s' in 'where clause'' in /var/www/html/www.igmoo.cn/modules/web/classes/zpdo/natural.php:110
+Stack trace:
+#0 /var/www/html/www.igmoo.cn/modules/web/classes/zpdo/natural.php(110): PDOStatement->execute()
+#1 /var/www/html/www.igmoo.cn/application/classes/model/novel.php(150): Zpdo_Natural->get_all('select * from I...')
+#2 /var/www/html/www.igmoo.cn/application/classes/controller/novel.php(102): Model_Novel->get_novellist_for_search(1, 40, '`category_id` =...')
+#3 [internal function]: Controller_Novel->action_more()
+#4 /var/www/html/www.igmoo.cn/system/classes/kohana/request/client/internal.php(118): ReflectionMethod->invoke(Object(Controller_Novel))
+#5 /var/www/html/www.igmoo.cn/system/classes/kohana/request/client.php(64): Kohana_Request_Client_Internal->execute_request(Object(Request))
+#6 /var/www/html/www.igmoo.cn/system/classes/kohana/request.php(1136): Kohana_Request_Client->execute(Object(Request))
+#7 /var/www/html/www.igmoo.cn/public/index.php(118): Kohana_Request->execute()
+#8 {main}; referer:
+2015-05-26 00:12:01 uri:/novel/more?category=50112&search=0_%E7%94%B5%E5%BD%B1%E5%89%A7%E6%9C%AC; code:error; msg:SQLSTATE[42S22]: Column not found: 1054 Unknown column 'novel_tags_s' in 'where clause'-exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'novel_tags_s' in 'where clause'' in /var/www/html/www.igmoo.cn/modules/web/classes/zpdo/natural.php:110
+Stack trace:
+#0 /var/www/html/www.igmoo.cn/modules/web/classes/zpdo/natural.php(110): PDOStatement->execute()
+#1 /var/www/html/www.igmoo.cn/application/classes/model/novel.php(150): Zpdo_Natural->get_all('select * from I...')
+#2 /var/www/html/www.igmoo.cn/application/classes/controller/novel.php(102): Model_Novel->get_novellist_for_search(1, 40, '`category_id` =...')
+#3 [internal function]: Controller_Novel->action_more()
+#4 /var/www/html/www.igmoo.cn/system/classes/kohana/request/client/internal.php(118): ReflectionMethod->invoke(Object(Controller_Novel))
+#5 /var/www/html/www.igmoo.cn/system/classes/kohana/request/client.php(64): Kohana_Request_Client_Internal->execute_request(Object(Request))
+#6 /var/www/html/www.igmoo.cn/system/classes/kohana/request.php(1136): Kohana_Request_Client->execute(Object(Request))
+#7 /var/www/html/www.igmoo.cn/public/index.php(118): Kohana_Request->execute()
+#8 {main}; referer:
+2015-05-26 00:15:48 uri:/novel/more?category=50114&search=0_%E7%BB%8F%E6%B5%8E%E7%AE%A1%E7%90%86; code:error; msg:SQLSTATE[42S22]: Column not found: 1054 Unknown column 'novel_tags_s' in 'where clause'-exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'novel_tags_s' in 'where clause'' in /var/www/html/www.igmoo.cn/modules/web/classes/zpdo/natural.php:110
+Stack trace:
+#0 /var/www/html/www.igmoo.cn/modules/web/classes/zpdo/natural.php(110): PDOStatement->execute()
+#1 /var/www/html/www.igmoo.cn/application/classes/model/novel.php(150): Zpdo_Natural->get_all('select * from I...')
+#2 /var/www/html/www.igmoo.cn/application/classes/controller/novel.php(102): Model_Novel->get_novellist_for_search(1, 40, '`category_id` =...')
+#3 [internal function]: Controller_Novel->action_more()
+#4 /var/www/html/www.igmoo.cn/system/classes/kohana/request/client/internal.php(118): ReflectionMethod->invoke(Object(Controller_Novel))
+#5 /var/www/html/www.igmoo.cn/system/classes/kohana/request/client.php(64): Kohana_Request_Client_Internal->execute_request(Object(Request))
+#6 /var/www/html/www.igmoo.cn/system/classes/kohana/request.php(1136): Kohana_Request_Client->execute(Object(Request))
+#7 /var/www/html/www.igmoo.cn/public/index.php(118): Kohana_Request->execute()
+#8 {main}; referer:
+2015-05-26 00:19:35 uri:/novel/more?category=50114&search=0_%E8%87%AA%E7%84%B6%E9%A3%8E%E6%83%85; code:error; msg:SQLSTATE[42S22]: Column not found: 1054 Unknown column 'novel_tags_s' in 'where clause'-exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'novel_tags_s' in 'where clause'' in /var/www/html/www.igmoo.cn/modules/web/classes/zpdo/natural.php:110
+Stack trace:
+#0 /var/www/html/www.igmoo.cn/modules/web/classes/zpdo/natural.php(110): PDOStatement->execute()
+#1 /var/www/html/www.igmoo.cn/application/classes/model/novel.php(150): Zpdo_Natural->get_all('select * from I...')
+#2 /var/www/html/www.igmoo.cn/application/classes/controller/novel.php(102): Model_Novel->get_novellist_for_search(1, 40, '`category_id` =...')
+#3 [internal function]: Controller_Novel->action_more()
+#4 /var/www/html/www.igmoo.cn/system/classes/kohana/request/client/internal.php(118): ReflectionMethod->invoke(Object(Controller_Novel))
+#5 /var/www/html/www.igmoo.cn/system/classes/kohana/request/client.php(64): Kohana_Request_Client_Internal->execute_request(Object(Request))
+#6 /var/www/html/www.igmoo.cn/system/classes/kohana/request.php(1136): Kohana_Request_Client->execute(Object(Request))
+#7 /var/www/html/www.igmoo.cn/public/index.php(118): Kohana_Request->execute()
+#8 {main}; referer:
+2015-05-26 00:27:10 uri:/novel/more?category=50114&search=0_%E5%8A%B1%E5%BF%97%E6%88%90%E5%8A%9F; code:error; msg:SQLSTATE[42S22]: Column not found: 1054 Unknown column 'novel_tags_s' in 'where clause'-exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'novel_tags_s' in 'where clause'' in /var/www/html/www.igmoo.cn/modules/web/classes/zpdo/natural.php:110
+Stack trace:
+#0 /var/www/html/www.igmoo.cn/modules/web/classes/zpdo/natural.php(110): PDOStatement->execute()
+#1 /var/www/html/www.igmoo.cn/application/classes/model/novel.php(150): Zpdo_Natural->get_all('select * from I...')
+#2 /var/www/html/www.igmoo.cn/application/classes/controller/novel.php(102): Model_Novel->get_novellist_for_search(1, 40, '`category_id` =...')
+#3 [internal function]: Controller_Novel->action_more()
+#4 /var/www/html/www.igmoo.cn/system/classes/kohana/request/client/internal.php(118): ReflectionMethod->invoke(Object(Controller_Novel))
+#5 /var/www/html/www.igmoo.cn/system/classes/kohana/request/client.php(64): Kohana_Request_Client_Internal->execute_request(Object(Request))
+#6 /var/www/html/www.igmoo.cn/system/classes/kohana/request.php(1136): Kohana_Request_Client->execute(Object(Request))
+#7 /var/www/html/www.igmoo.cn/public/index.php(118): Kohana_Request->execute()
+#8 {main}; referer:
+2015-05-26 00:30:56 uri:/novel/more?category=50113&search=2_%E7%88%86%E7%AC%91%E7%94%9F%E6%B4%BB; code:error; msg:SQLSTATE[42S22]: Column not found: 1054 Unknown column 'novel_tags_s' in 'where clause'-exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'novel_tags_s' in 'where clause'' in /var/www/html/www.igmoo.cn/modules/web/classes/zpdo/natural.php:110
+Stack trace:
+#0 /var/www/html/www.igmoo.cn/modules/web/classes/zpdo/natural.php(110): PDOStatement->execute()
+#1 /var/www/html/www.igmoo.cn/application/classes/model/novel.php(150): Zpdo_Natural->get_all('select * from I...')
+#2 /var/www/html/www.igmoo.cn/application/classes/controller/novel.php(102): Model_Novel->get_novellist_for_search(1, 40, '`category_id` =...')
+#3 [internal function]: Controller_Novel->action_more()
+#4 /var/www/html/www.igmoo.cn/system/classes/kohana/request/client/internal.php(118): ReflectionMethod->invoke(Object(Controller_Novel))
+#5 /var/www/html/www.igmoo.cn/system/classes/kohana/request/client.php(64): Kohana_Request_Client_Internal->execute_request(Object(Request))
+#6 /var/www/html/www.igmoo.cn/system/classes/kohana/request.php(1136): Kohana_Request_Client->execute(Object(Request))
+#7 /var/www/html/www.igmoo.cn/public/index.php(118): Kohana_Request->execute()
+#8 {main}; referer:
+2015-05-26 00:33:58 uri:/muieblackcat; code:404; msg:The requested URL muieblackcat was not found on this server.-HTTP_Exception_404 [ 404 ]: The requested URL muieblackcat was not found on this server. ~ SYSPATH/classes/kohana/request/client/internal.php [ 87 ]; referer:
+2015-05-26 00:38:30 uri:/novel/more?category=50113&search=2_%E7%88%B1%E6%83%85%E5%93%B2%E7%90%86; code:error; msg:SQLSTATE[42S22]: Column not found: 1054 Unknown column 'novel_tags_s' in 'where clause'-exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'novel_tags_s' in 'where clause'' in /var/www/html/www.igmoo.cn/modules/web/classes/zpdo/natural.php:110
+Stack trace:
+#0 /var/www/html/www.igmoo.cn/modules/web/classes/zpdo/natural.php(110): PDOStatement->execute()
+#1 /var/www/html/www.igmoo.cn/application/classes/model/novel.php(150): Zpdo_Natural->get_all('select * from I...')
+#2 /var/www/html/www.igmoo.cn/application/classes/controller/novel.php(102): Model_Novel->get_novellist_for_search(1, 40, '`category_id` =...')
+#3 [internal function]: Controller_Novel->action_more()
+#4 /var/www/html/www.igmoo.cn/system/classes/kohana/request/client/internal.php(118): ReflectionMethod->invoke(Object(Controller_Novel))
+#5 /var/www/html/www.igmoo.cn/system/classes/kohana/request/client.php(64): Kohana_Request_Client_Internal->execute_request(Object(Request))
+#6 /var/www/html/www.igmoo.cn/system/classes/kohana/request.php(1136): Kohana_Request_Client->execute(Object(Request))
+#7 /var/www/html/www.igmoo.cn/public/index.php(118): Kohana_Request->execute()
+#8 {main}; referer:
+2015-05-26 00:42:17 uri:/novel/more?category=50114&search=0_%E7%A7%91%E6%8A%80%E6%96%87%E5%8C%96; code:error; msg:SQLSTATE[42S22]: Column not found: 1054 Unknown column 'novel_tags_s' in 'where clause'-exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'novel_tags_s' in 'where clause'' in /var/www/html/www.igmoo.cn/modules/web/classes/zpdo/natural.php:110
+Stack trace:
+#0 /var/www/html/www.igmoo.cn/modules/web/classes/zpdo/natural.php(110): PDOStatement->execute()
+#1 /var/www/html/www.igmoo.cn/application/classes/model/novel.php(150): Zpdo_Natural->get_all('select * from I...')
+#2 /var/www/html/www.igmoo.cn/application/classes/controller/novel.php(102): Model_Novel->get_novellist_for_search(1, 40, '`category_id` =...')
+#3 [internal function]: Controller_Novel->action_more()
+#4 /var/www/html/www.igmoo.cn/system/classes/kohana/request/client/internal.php(118): ReflectionMethod->invoke(Object(Controller_Novel))
+#5 /var/www/html/www.igmoo.cn/system/classes/kohana/request/client.php(64): Kohana_Request_Client_Internal->execute_request(Object(Request))
+#6 /var/www/html/www.igmoo.cn/system/classes/kohana/request.php(1136): Kohana_Request_Client->execute(Object(Request))
+#7 /var/www/html/www.igmoo.cn/public/index.php(118): Kohana_Request->execute()
+#8 {main}; referer:
+2015-05-26 00:46:04 uri:/novel/more?category=50114&search=0_%E6%97%85%E6%B8%B8%E6%8E%A2%E9%99%A9; code:error; msg:SQLSTATE[42S22]: Column not found: 1054 Unknown column 'novel_tags_s' in 'where clause'-exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'novel_tags_s' in 'where clause'' in /var/www/html/www.igmoo.cn/modules/web/classes/zpdo/natural.php:110
+Stack trace:
+#0 /var/www/html/www.igmoo.cn/modules/web/classes/zpdo/natural.php(110): PDOStatement->execute()
+#1 /var/www/html/www.igmoo.cn/application/classes/model/novel.php(150): Zpdo_Natural->get_all('select * from I...')
+#2 /var/www/html/www.igmoo.cn/application/classes/controller/novel.php(102): Model_Novel->get_novellist_for_search(1, 40, '`category_id` =...')
+#3 [internal function]: Controller_Novel->action_more()
+#4 /var/www/html/www.igmoo.cn/system/classes/kohana/request/client/internal.php(118): ReflectionMethod->invoke(Object(Controller_Novel))
+#5 /var/www/html/www.igmoo.cn/system/classes/kohana/request/client.php(64): Kohana_Request_Client_Internal->execute_request(Object(Request))
+#6 /var/www/html/www.igmoo.cn/system/classes/kohana/request.php(1136): Kohana_Request_Client->execute(Object(Request))
+#7 /var/www/html/www.igmoo.cn/public/index.php(118): Kohana_Request->execute()
+#8 {main}; referer:
+2015-05-26 00:49:52 uri:/novel/more?category=50113&search=0_%E5%84%BF%E7%AB%A5%E6%BC%AB%E7%94%BB; code:error; msg:SQLSTATE[42S22]: Column not found: 1054 Unknown column 'novel_tags_s' in 'where clause'-exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'novel_tags_s' in 'where clause'' in /var/www/html/www.igmoo.cn/modules/web/classes/zpdo/natural.php:110
+Stack trace:
+#0 /var/www/html/www.igmoo.cn/modules/web/classes/zpdo/natural.php(110): PDOStatement->execute()
+#1 /var/www/html/www.igmoo.cn/application/classes/model/novel.php(150): Zpdo_Natural->get_all('select * from I...')
+#2 /var/www/html/www.igmoo.cn/application/classes/controller/novel.php(102): Model_Novel->get_novellist_for_search(1, 40, '`category_id` =...')
+#3 [internal function]: Controller_Novel->action_more()
+#4 /var/www/html/www.igmoo.cn/system/classes/kohana/request/client/internal.php(118): ReflectionMethod->invoke(Object(Controller_Novel))
+#5 /var/www/html/www.igmoo.cn/system/classes/kohana/request/client.php(64): Kohana_Request_Client_Internal->execute_request(Object(Request))
+#6 /var/www/html/www.igmoo.cn/system/classes/kohana/request.php(1136): Kohana_Request_Client->execute(Object(Request))
+#7 /var/www/html/www.igmoo.cn/public/index.php(118): Kohana_Request->execute()
+#8 {main}; referer:
+2015-05-26 00:53:38 uri:/novel/more?category=50113&search=0_%E5%B0%91%E5%B9%B4%E6%BC%AB%E7%94%BB; code:error; msg:SQLSTATE[42S22]: Column not found: 1054 Unknown column 'novel_tags_s' in 'where clause'-exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'novel_tags_s' in 'where clause'' in /var/www/html/www.igmoo.cn/modules/web/classes/zpdo/natural.php:110
+Stack trace:
+#0 /var/www/html/www.igmoo.cn/modules/web/classes/zpdo/natural.php(110): PDOStatement->execute()
+#1 /var/www/html/www.igmoo.cn/application/classes/model/novel.php(150): Zpdo_Natural->get_all('select * from I...')
+#2 /var/www/html/www.igmoo.cn/application/classes/controller/novel.php(102): Model_Novel->get_novellist_for_search(1, 40, '`category_id` =...')
+#3 [internal function]: Controller_Novel->action_more()
+#4 /var/www/html/www.igmoo.cn/system/classes/kohana/request/client/internal.php(118): ReflectionMethod->invoke(Object(Controller_Novel))
+#5 /var/www/html/www.igmoo.cn/system/classes/kohana/request/client.php(64): Kohana_Request_Client_Internal->execute_request(Object(Request))
+#6 /var/www/html/www.igmoo.cn/system/classes/kohana/request.php(1136): Kohana_Request_Client->execute(Object(Request))
+#7 /var/www/html/www.igmoo.cn/public/index.php(118): Kohana_Request->execute()
+#8 {main}; referer:
+2015-05-26 00:57:25 uri:/novel/more?category=50113&search=2_%E5%88%91%E4%BE%A6%E6%8E%A8%E7%90%86; code:error; msg:SQLSTATE[42S22]: Column not found: 1054 Unknown column 'novel_tags_s' in 'where clause'-exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'novel_tags_s' in 'where clause'' in /var/www/html/www.igmoo.cn/modules/web/classes/zpdo/natural.php:110
+Stack trace:
+#0 /var/www/html/www.igmoo.cn/modules/web/classes/zpdo/natural.php(110): PDOStatement->execute()
+#1 /var/www/html/www.igmoo.cn/application/classes/model/novel.php(150): Zpdo_Natural->get_all('select * from I...')
+#2 /var/www/html/www.igmoo.cn/application/classes/controller/novel.php(102): Model_Novel->get_novellist_for_search(1, 40, '`category_id` =...')
+#3 [internal function]: Controller_Novel->action_more()
+#4 /var/www/html/www.igmoo.cn/system/classes/kohana/request/client/internal.php(118): ReflectionMethod->invoke(Object(Controller_Novel))
+#5 /var/www/html/www.igmoo.cn/system/classes/kohana/request/client.php(64): Kohana_Request_Client_Internal->execute_request(Object(Request))
+#6 /var/www/html/www.igmoo.cn/system/classes/kohana/request.php(1136): Kohana_Request_Client->execute(Object(Request))
+#7 /var/www/html/www.igmoo.cn/public/index.php(118): Kohana_Request->execute()
+#8 {main}; referer:
+2015-05-26 01:01:13 uri:/novel/more?category=50113&search=2_%E6%A0%A1%E5%9B%AD%E6%88%90%E9%95%BF; code:error; msg:SQLSTATE[42S22]: Column not found: 1054 Unknown column 'novel_tags_s' in 'where clause'-exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'novel_tags_s' in 'where clause'' in /var/www/html/www.igmoo.cn/modules/web/classes/zpdo/natural.php:110
+Stack trace:
+#0 /var/www/html/www.igmoo.cn/modules/web/classes/zpdo/natural.php(110): PDOStatement->execute()
+#1 /var/www/html/www.igmoo.cn/application/classes/model/novel.php(150): Zpdo_Natural->get_all('select * from I...')
+#2 /var/www/html/www.igmoo.cn/application/classes/controller/novel.php(102): Model_Novel->get_novellist_for_search(1, 40, '`category_id` =...')
+#3 [internal function]: Controller_Novel->action_more()
+#4 /var/www/html/www.igmoo.cn/system/classes/kohana/request/client/internal.php(118): ReflectionMethod->invoke(Object(Controller_Novel))
+#5 /var/www/html/www.igmoo.cn/system/classes/kohana/request/client.php(64): Kohana_Request_Client_Internal->execute_request(Object(Request))
+#6 /var/www/html/www.igmoo.cn/system/classes/kohana/request.php(1136): Kohana_Request_Client->execute(Object(Request))
+#7 /var/www/html/www.igmoo.cn/public/index.php(118): Kohana_Request->execute()
+#8 {main}; referer:
+2015-05-26 01:04:59 uri:/novel/more?category=50114&search=0_%E6%94%BF%E6%B2%BB%E5%86%9B%E4%BA%8B; code:error; msg:SQLSTATE[42S22]: Column not found: 1054 Unknown column 'novel_tags_s' in 'where clause'-exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'novel_tags_s' in 'where clause'' in /var/www/html/www.igmoo.cn/modules/web/classes/zpdo/natural.php:110
+Stack trace:
+#0 /var/www/html/www.igmoo.cn/modules/web/classes/zpdo/natural.php(110): PDOStatement->execute()
+#1 /var/www/html/www.igmoo.cn/application/classes/model/novel.php(150): Zpdo_Natural->get_all('select * from I...')
+#2 /var/www/html/www.igmoo.cn/application/classes/controller/novel.php(102): Model_Novel->get_novellist_for_search(1, 40, '`category_id` =...')
+#3 [internal function]: Controller_Novel->action_more()
+#4 /var/www/html/www.igmoo.cn/system/classes/kohana/request/client/internal.php(118): ReflectionMethod->invoke(Object(Controller_Novel))
+#5 /var/www/html/www.igmoo.cn/system/classes/kohana/request/client.php(64): Kohana_Request_Client_Internal->execute_request(Object(Request))
+#6 /var/www/html/www.igmoo.cn/system/classes/kohana/request.php(1136): Kohana_Request_Client->execute(Object(Request))
+#7 /var/www/html/www.igmoo.cn/public/index.php(118): Kohana_Request->execute()
+#8 {main}; referer:
+2015-05-26 01:08:46 uri:/novel/more?category=50112&search=0_%E5%BE%AE%E7%94%B5%E5%BD%B1%E5%89%A7%E6%9C%AC; code:error; msg:SQLSTATE[42S22]: Column not found: 1054 Unknown column 'novel_tags_s' in 'where clause'-exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'novel_tags_s' in 'where clause'' in /var/www/html/www.igmoo.cn/modules/web/classes/zpdo/natural.php:110
+Stack trace:
+#0 /var/www/html/www.igmoo.cn/modules/web/classes/zpdo/natural.php(110): PDOStatement->execute()
+#1 /var/www/html/www.igmoo.cn/application/classes/model/novel.php(150): Zpdo_Natural->get_all('select * from I...')
+#2 /var/www/html/www.igmoo.cn/application/classes/controller/novel.php(102): Model_Novel->get_novellist_for_search(1, 40, '`category_id` =...')
+#3 [internal function]: Controller_Novel->action_more()
+#4 /var/www/html/www.igmoo.cn/system/classes/kohana/request/client/internal.php(118): ReflectionMethod->invoke(Object(Controller_Novel))
+#5 /var/www/html/www.igmoo.cn/system/classes/kohana/request/client.php(64): Kohana_Request_Client_Internal->execute_request(Object(Request))
+#6 /var/www/html/www.igmoo.cn/system/classes/kohana/request.php(1136): Kohana_Request_Client->execute(Object(Request))
+#7 /var/www/html/www.igmoo.cn/public/index.php(118): Kohana_Request->execute()
+#8 {main}; referer:
+2015-05-26 01:12:34 uri:/novel/more?category=50111&search=2_%E7%A7%91%E5%B9%BB; code:error; msg:SQLSTATE[42S22]: Column not found: 1054 Unknown column 'novel_tags_s' in 'where clause'-exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'novel_tags_s' in 'where clause'' in /var/www/html/www.igmoo.cn/modules/web/classes/zpdo/natural.php:110
+Stack trace:
+#0 /var/www/html/www.igmoo.cn/modules/web/classes/zpdo/natural.php(110): PDOStatement->execute()
+#1 /var/www/html/www.igmoo.cn/application/classes/model/novel.php(150): Zpdo_Natural->get_all('select * from I...')
+#2 /var/www/html/www.igmoo.cn/application/classes/controller/novel.php(102): Model_Novel->get_novellist_for_search(1, 40, '`category_id` =...')
+#3 [internal function]: Controller_Novel->action_more()
+#4 /var/www/html/www.igmoo.cn/system/classes/kohana/request/client/internal.php(118): ReflectionMethod->invoke(Object(Controller_Novel))
+#5 /var/www/html/www.igmoo.cn/system/classes/kohana/request/client.php(64): Kohana_Request_Client_Internal->execute_request(Object(Request))
+#6 /var/www/html/www.igmoo.cn/system/classes/kohana/request.php(1136): Kohana_Request_Client->execute(Object(Request))
+#7 /var/www/html/www.igmoo.cn/public/index.php(118): Kohana_Request->execute()
+#8 {main}; referer:
+2015-05-26 01:16:20 uri:/novel/more?category=50111&search=3_%E6%82%B2%E5%89%A7; code:error; msg:SQLSTATE[42S22]: Column not found: 1054 Unknown column 'novel_tags_s' in 'where clause'-exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'novel_tags_s' in 'where clause'' in /var/www/html/www.igmoo.cn/modules/web/classes/zpdo/natural.php:110
+Stack trace:
+#0 /var/www/html/www.igmoo.cn/modules/web/classes/zpdo/natural.php(110): PDOStatement->execute()
+#1 /var/www/html/www.igmoo.cn/application/classes/model/novel.php(150): Zpdo_Natural->get_all('select * from I...')
+#2 /var/www/html/www.igmoo.cn/application/classes/controller/novel.php(102): Model_Novel->get_novellist_for_search(1, 40, '`category_id` =...')
+#3 [internal function]: Controller_Novel->action_more()
+#4 /var/www/html/www.igmoo.cn/system/classes/kohana/request/client/internal.php(118): ReflectionMethod->invoke(Object(Controller_Novel))
+#5 /var/www/html/www.igmoo.cn/system/classes/kohana/request/client.php(64): Kohana_Request_Client_Internal->execute_request(Object(Request))
+#6 /var/www/html/www.igmoo.cn/system/classes/kohana/request.php(1136): Kohana_Request_Client->execute(Object(Request))
+#7 /var/www/html/www.igmoo.cn/public/index.php(118): Kohana_Request->execute()
+#8 {main}; referer:
+2015-05-26 01:19:14 uri:/robots.txt; code:404; msg:Unable to find a route to match the URI: robots.txt-HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: robots.txt ~ SYSPATH/classes/kohana/request.php [ 1124 ]; referer:
+2015-05-26 01:20:07 uri:/novel/more?category=50111&search=2_%E6%8A%97%E6%88%98; code:error; msg:SQLSTATE[42S22]: Column not found: 1054 Unknown column 'novel_tags_s' in 'where clause'-exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'novel_tags_s' in 'where clause'' in /var/www/html/www.igmoo.cn/modules/web/classes/zpdo/natural.php:110
+Stack trace:
+#0 /var/www/html/www.igmoo.cn/modules/web/classes/zpdo/natural.php(110): PDOStatement->execute()
+#1 /var/www/html/www.igmoo.cn/application/classes/model/novel.php(150): Zpdo_Natural->get_all('select * from I...')
+#2 /var/www/html/www.igmoo.cn/application/classes/controller/novel.php(102): Model_Novel->get_novellist_for_search(1, 40, '`category_id` =...')
+#3 [internal function]: Controller_Novel->action_more()
+#4 /var/www/html/www.igmoo.cn/system/classes/kohana/request/client/internal.php(118): ReflectionMethod->invoke(Object(Controller_Novel))
+#5 /var/www/html/www.igmoo.cn/system/classes/kohana/request/client.php(64): Kohana_Request_Client_Internal->execute_request(Object(Request))
+#6 /var/www/html/www.igmoo.cn/system/classes/kohana/request.php(1136): Kohana_Request_Client->execute(Object(Request))
+#7 /var/www/html/www.igmoo.cn/public/index.php(118): Kohana_Request->execute()
+#8 {main}; referer:
+2015-05-26 01:23:55 uri:/novel/more?category=50111&search=2_%E7%A5%9E%E8%AF%9D; code:error; msg:SQLSTATE[42S22]: Column not found: 1054 Unknown column 'novel_tags_s' in 'where clause'-exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'novel_tags_s' in 'where clause'' in /var/www/html/www.igmoo.cn/modules/web/classes/zpdo/natural.php:110
+Stack trace:
+#0 /var/www/html/www.igmoo.cn/modules/web/classes/zpdo/natural.php(110): PDOStatement->execute()
+#1 /var/www/html/www.igmoo.cn/application/classes/model/novel.php(150): Zpdo_Natural->get_all('select * from I...')
+#2 /var/www/html/www.igmoo.cn/application/classes/controller/novel.php(102): Model_Novel->get_novellist_for_search(1, 40, '`category_id` =...')
+#3 [internal function]: Controller_Novel->action_more()
+#4 /var/www/html/www.igmoo.cn/system/classes/kohana/request/client/internal.php(118): ReflectionMethod->invoke(Object(Controller_Novel))
+#5 /var/www/html/www.igmoo.cn/system/classes/kohana/request/client.php(64): Kohana_Request_Client_Internal->execute_request(Object(Request))
+#6 /var/www/html/www.igmoo.cn/system/classes/kohana/request.php(1136): Kohana_Request_Client->execute(Object(Request))
+#7 /var/www/html/www.igmoo.cn/public/index.php(118): Kohana_Request->execute()
+#8 {main}; referer:
+2015-05-26 01:27:41 uri:/novel/more?category=50111&search=2_%E6%82%AC%E7%96%91; code:error; msg:SQLSTATE[42S22]: Column not found: 1054 Unknown column 'novel_tags_s' in 'where clause'-exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'novel_tags_s' in 'where clause'' in /var/www/html/www.igmoo.cn/modules/web/classes/zpdo/natural.php:110
+Stack trace:
+#0 /var/www/html/www.igmoo.cn/modules/web/classes/zpdo/natural.php(110): PDOStatement->execute()
+#1 /var/www/html/www.igmoo.cn/application/classes/model/novel.php(150): Zpdo_Natural->get_all('select * from I...')
+#2 /var/www/html/www.igmoo.cn/application/classes/controller/novel.php(102): Model_Novel->get_novellist_for_search(1, 40, '`category_id` =...')
+#3 [internal function]: Controller_Novel->action_more()
+#4 /var/www/html/www.igmoo.cn/system/classes/kohana/request/client/internal.php(118): ReflectionMethod->invoke(Object(Controller_Novel))
+#5 /var/www/html/www.igmoo.cn/system/classes/kohana/request/client.php(64): Kohana_Request_Client_Internal->execute_request(Object(Request))
+#6 /var/www/html/www.igmoo.cn/system/classes/kohana/request.php(1136): Kohana_Request_Client->execute(Object(Request))
+#7 /var/www/html/www.igmoo.cn/public/index.php(118): Kohana_Request->execute()
+#8 {main}; referer:
+2015-05-26 01:31:28 uri:/novel/more?category=50111&search=2_%E8%A8%80%E6%83%85; code:error; msg:SQLSTATE[42S22]: Column not found: 1054 Unknown column 'novel_tags_s' in 'where clause'-exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'novel_tags_s' in 'where clause'' in /var/www/html/www.igmoo.cn/modules/web/classes/zpdo/natural.php:110
+Stack trace:
+#0 /var/www/html/www.igmoo.cn/modules/web/classes/zpdo/natural.php(110): PDOStatement->execute()
+#1 /var/www/html/www.igmoo.cn/application/classes/model/novel.php(150): Zpdo_Natural->get_all('select * from I...')
+#2 /var/www/html/www.igmoo.cn/application/classes/controller/novel.php(102): Model_Novel->get_novellist_for_search(1, 40, '`category_id` =...')
+#3 [internal function]: Controller_Novel->action_more()
+#4 /var/www/html/www.igmoo.cn/system/classes/kohana/request/client/internal.php(118): ReflectionMethod->invoke(Object(Controller_Novel))
+#5 /var/www/html/www.igmoo.cn/system/classes/kohana/request/client.php(64): Kohana_Request_Client_Internal->execute_request(Object(Request))
+#6 /var/www/html/www.igmoo.cn/system/classes/kohana/request.php(1136): Kohana_Request_Client->execute(Object(Request))
+#7 /var/www/html/www.igmoo.cn/public/index.php(118): Kohana_Request->execute()
+#8 {main}; referer:
+2015-05-26 01:35:18 uri:/novel/more?category=50111&search=3_%E5%96%9C%E5%89%A7; code:error; msg:SQLSTATE[42S22]: Column not found: 1054 Unknown column 'novel_tags_s' in 'where clause'-exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'novel_tags_s' in 'where clause'' in /var/www/html/www.igmoo.cn/modules/web/classes/zpdo/natural.php:110
+Stack trace:
+#0 /var/www/html/www.igmoo.cn/modules/web/classes/zpdo/natural.php(110): PDOStatement->execute()
+#1 /var/www/html/www.igmoo.cn/application/classes/model/novel.php(150): Zpdo_Natural->get_all('select * from I...')
+#2 /var/www/html/www.igmoo.cn/application/classes/controller/novel.php(102): Model_Novel->get_novellist_for_search(1, 40, '`category_id` =...')
+#3 [internal function]: Controller_Novel->action_more()
+#4 /var/www/html/www.igmoo.cn/system/classes/kohana/request/client/internal.php(118): ReflectionMethod->invoke(Object(Controller_Novel))
+#5 /var/www/html/www.igmoo.cn/system/classes/kohana/request/client.php(64): Kohana_Request_Client_Internal->execute_request(Object(Request))
+#6 /var/www/html/www.igmoo.cn/system/classes/kohana/request.php(1136): Kohana_Request_Client->execute(Object(Request))
+#7 /var/www/html/www.igmoo.cn/public/index.php(118): Kohana_Request->execute()
+#8 {main}; referer:
+2015-05-26 01:39:02 uri:/novel/more?category=50111&search=2_%E7%94%9F%E6%B4%BB; code:error; msg:SQLSTATE[42S22]: Column not found: 1054 Unknown column 'novel_tags_s' in 'where clause'-exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'novel_tags_s' in 'where clause'' in /var/www/html/www.igmoo.cn/modules/web/classes/zpdo/natural.php:110
+Stack trace:
+#0 /var/www/html/www.igmoo.cn/modules/web/classes/zpdo/natural.php(110): PDOStatement->execute()
+#1 /var/www/html/www.igmoo.cn/application/classes/model/novel.php(150): Zpdo_Natural->get_all('select * from I...')
+#2 /var/www/html/www.igmoo.cn/application/classes/controller/novel.php(102): Model_Novel->get_novellist_for_search(1, 40, '`category_id` =...')
+#3 [internal function]: Controller_Novel->action_more()
+#4 /var/www/html/www.igmoo.cn/system/classes/kohana/request/client/internal.php(118): ReflectionMethod->invoke(Object(Controller_Novel))
+#5 /var/www/html/www.igmoo.cn/system/classes/kohana/request/client.php(64): Kohana_Request_Client_Internal->execute_request(Object(Request))
+#6 /var/www/html/www.igmoo.cn/system/classes/kohana/request.php(1136): Kohana_Request_Client->execute(Object(Request))
+#7 /var/www/html/www.igmoo.cn/public/index.php(118): Kohana_Request->execute()
+#8 {main}; referer:
+2015-05-26 01:42:49 uri:/novel/more?category=50111&search=2_%E5%86%9B%E4%BA%8B; code:error; msg:SQLSTATE[42S22]: Column not found: 1054 Unknown column 'novel_tags_s' in 'where clause'-exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'novel_tags_s' in 'where clause'' in /var/www/html/www.igmoo.cn/modules/web/classes/zpdo/natural.php:110
+Stack trace:
+#0 /var/www/html/www.igmoo.cn/modules/web/classes/zpdo/natural.php(110): PDOStatement->execute()
+#1 /var/www/html/www.igmoo.cn/application/classes/model/novel.php(150): Zpdo_Natural->get_all('select * from I...')
+#2 /var/www/html/www.igmoo.cn/application/classes/controller/novel.php(102): Model_Novel->get_novellist_for_search(1, 40, '`category_id` =...')
+#3 [internal function]: Controller_Novel->action_more()
+#4 /var/www/html/www.igmoo.cn/system/classes/kohana/request/client/internal.php(118): ReflectionMethod->invoke(Object(Controller_Novel))
+#5 /var/www/html/www.igmoo.cn/system/classes/kohana/request/client.php(64): Kohana_Request_Client_Internal->execute_request(Object(Request))
+#6 /var/www/html/www.igmoo.cn/system/classes/kohana/request.php(1136): Kohana_Request_Client->execute(Object(Request))
+#7 /var/www/html/www.igmoo.cn/public/index.php(118): Kohana_Request->execute()
+#8 {main}; referer:
+2015-05-26 01:46:37 uri:/novel/more?category=50111&search=2_%E6%AD%A6%E4%BE%A0; code:error; msg:SQLSTATE[42S22]: Column not found: 1054 Unknown column 'novel_tags_s' in 'where clause'-exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'novel_tags_s' in 'where clause'' in /var/www/html/www.igmoo.cn/modules/web/classes/zpdo/natural.php:110
+Stack trace:
+#0 /var/www/html/www.igmoo.cn/modules/web/classes/zpdo/natural.php(110): PDOStatement->execute()
+#1 /var/www/html/www.igmoo.cn/application/classes/model/novel.php(150): Zpdo_Natural->get_all('select * from I...')
+#2 /var/www/html/www.igmoo.cn/application/classes/controller/novel.php(102): Model_Novel->get_novellist_for_search(1, 40, '`category_id` =...')
+#3 [internal function]: Controller_Novel->action_more()
+#4 /var/www/html/www.igmoo.cn/system/classes/kohana/request/client/internal.php(118): ReflectionMethod->invoke(Object(Controller_Novel))
+#5 /var/www/html/www.igmoo.cn/system/classes/kohana/request/client.php(64): Kohana_Request_Client_Internal->execute_request(Object(Request))
+#6 /var/www/html/www.igmoo.cn/system/classes/kohana/request.php(1136): Kohana_Request_Client->execute(Object(Request))
+#7 /var/www/html/www.igmoo.cn/public/index.php(118): Kohana_Request->execute()
+#8 {main}; referer:
+2015-05-26 01:50:23 uri:/novel/more?category=50111&search=2_%E6%97%B6%E8%A3%85; code:error; msg:SQLSTATE[42S22]: Column not found: 1054 Unknown column 'novel_tags_s' in 'where clause'-exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'novel_tags_s' in 'where clause'' in /var/www/html/www.igmoo.cn/modules/web/classes/zpdo/natural.php:110
+Stack trace:
+#0 /var/www/html/www.igmoo.cn/modules/web/classes/zpdo/natural.php(110): PDOStatement->execute()
+#1 /var/www/html/www.igmoo.cn/application/classes/model/novel.php(150): Zpdo_Natural->get_all('select * from I...')
+#2 /var/www/html/www.igmoo.cn/application/classes/controller/novel.php(102): Model_Novel->get_novellist_for_search(1, 40, '`category_id` =...')
+#3 [internal function]: Controller_Novel->action_more()
+#4 /var/www/html/www.igmoo.cn/system/classes/kohana/request/client/internal.php(118): ReflectionMethod->invoke(Object(Controller_Novel))
+#5 /var/www/html/www.igmoo.cn/system/classes/kohana/request/client.php(64): Kohana_Request_Client_Internal->execute_request(Object(Request))
+#6 /var/www/html/www.igmoo.cn/system/classes/kohana/request.php(1136): Kohana_Request_Client->execute(Object(Request))
+#7 /var/www/html/www.igmoo.cn/public/index.php(118): Kohana_Request->execute()
+#8 {main}; referer:
+2015-05-26 01:51:51 uri:/robots.txt; code:404; msg:Unable to find a route to match the URI: robots.txt-HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: robots.txt ~ SYSPATH/classes/kohana/request.php [ 1124 ]; referer:http://igmoo.cn/robots.txt
+2015-05-26 01:54:10 uri:/novel/more?category=50111&search=2_%E5%8F%A4%E8%A3%85; code:error; msg:SQLSTATE[42S22]: Column not found: 1054 Unknown column 'novel_tags_s' in 'where clause'-exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'novel_tags_s' in 'where clause'' in /var/www/html/www.igmoo.cn/modules/web/classes/zpdo/natural.php:110
+Stack trace:
+#0 /var/www/html/www.igmoo.cn/modules/web/classes/zpdo/natural.php(110): PDOStatement->execute()
+#1 /var/www/html/www.igmoo.cn/application/classes/model/novel.php(150): Zpdo_Natural->get_all('select * from I...')
+#2 /var/www/html/www.igmoo.cn/application/classes/controller/novel.php(102): Model_Novel->get_novellist_for_search(1, 40, '`category_id` =...')
+#3 [internal function]: Controller_Novel->action_more()
+#4 /var/www/html/www.igmoo.cn/system/classes/kohana/request/client/internal.php(118): ReflectionMethod->invoke(Object(Controller_Novel))
+#5 /var/www/html/www.igmoo.cn/system/classes/kohana/request/client.php(64): Kohana_Request_Client_Internal->execute_request(Object(Request))
+#6 /var/www/html/www.igmoo.cn/system/classes/kohana/request.php(1136): Kohana_Request_Client->execute(Object(Request))
+#7 /var/www/html/www.igmoo.cn/public/index.php(118): Kohana_Request->execute()
+#8 {main}; referer:
+2015-05-26 01:57:58 uri:/novel/more?category=50111&search=2_%E5%AE%B6%E5%BA%AD; code:error; msg:SQLSTATE[42S22]: Column not found: 1054 Unknown column 'novel_tags_s' in 'where clause'-exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'novel_tags_s' in 'where clause'' in /var/www/html/www.igmoo.cn/modules/web/classes/zpdo/natural.php:110
+Stack trace:
+#0 /var/www/html/www.igmoo.cn/modules/web/classes/zpdo/natural.php(110): PDOStatement->execute()
+#1 /var/www/html/www.igmoo.cn/application/classes/model/novel.php(150): Zpdo_Natural->get_all('select * from I...')
+#2 /var/www/html/www.igmoo.cn/application/classes/controller/novel.php(102): Model_Novel->get_novellist_for_search(1, 40, '`category_id` =...')
+#3 [internal function]: Controller_Novel->action_more()
+#4 /var/www/html/www.igmoo.cn/system/classes/kohana/request/client/internal.php(118): ReflectionMethod->invoke(Object(Controller_Novel))
+#5 /var/www/html/www.igmoo.cn/system/classes/kohana/request/client.php(64): Kohana_Request_Client_Internal->execute_request(Object(Request))
+#6 /var/www/html/www.igmoo.cn/system/classes/kohana/request.php(1136): Kohana_Request_Client->execute(Object(Request))
+#7 /var/www/html/www.igmoo.cn/public/index.php(118): Kohana_Request->execute()
+#8 {main}; referer:
+2015-05-26 02:01:44 uri:/novel/more?category=50111&search=2_%E6%83%8A%E6%82%9A; code:error; msg:SQLSTATE[42S22]: Column not found: 1054 Unknown column 'novel_tags_s' in 'where clause'-exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'novel_tags_s' in 'where clause'' in /var/www/html/www.igmoo.cn/modules/web/classes/zpdo/natural.php:110
+Stack trace:
+#0 /var/www/html/www.igmoo.cn/modules/web/classes/zpdo/natural.php(110): PDOStatement->execute()
+#1 /var/www/html/www.igmoo.cn/application/classes/model/novel.php(150): Zpdo_Natural->get_all('select * from I...')
+#2 /var/www/html/www.igmoo.cn/application/classes/controller/novel.php(102): Model_Novel->get_novellist_for_search(1, 40, '`category_id` =...')
+#3 [internal function]: Controller_Novel->action_more()
+#4 /var/www/html/www.igmoo.cn/system/classes/kohana/request/client/internal.php(118): ReflectionMethod->invoke(Object(Controller_Novel))
+#5 /var/www/html/www.igmoo.cn/system/classes/kohana/request/client.php(64): Kohana_Request_Client_Internal->execute_request(Object(Request))
+#6 /var/www/html/www.igmoo.cn/system/classes/kohana/request.php(1136): Kohana_Request_Client->execute(Object(Request))
+#7 /var/www/html/www.igmoo.cn/public/index.php(118): Kohana_Request->execute()
+#8 {main}; referer:
+2015-05-26 02:05:31 uri:/novel/more?category=50111&search=3_%E6%AD%A3%E5%89%A7; code:error; msg:SQLSTATE[42S22]: Column not found: 1054 Unknown column 'novel_tags_s' in 'where clause'-exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'novel_tags_s' in 'where clause'' in /var/www/html/www.igmoo.cn/modules/web/classes/zpdo/natural.php:110
+Stack trace:
+#0 /var/www/html/www.igmoo.cn/modules/web/classes/zpdo/natural.php(110): PDOStatement->execute()
+#1 /var/www/html/www.igmoo.cn/application/classes/model/novel.php(150): Zpdo_Natural->get_all('select * from I...')
+#2 /var/www/html/www.igmoo.cn/application/classes/controller/novel.php(102): Model_Novel->get_novellist_for_search(1, 40, '`category_id` =...')
+#3 [internal function]: Controller_Novel->action_more()
+#4 /var/www/html/www.igmoo.cn/system/classes/kohana/request/client/internal.php(118): ReflectionMethod->invoke(Object(Controller_Novel))
+#5 /var/www/html/www.igmoo.cn/system/classes/kohana/request/client.php(64): Kohana_Request_Client_Internal->execute_request(Object(Request))
+#6 /var/www/html/www.igmoo.cn/system/classes/kohana/request.php(1136): Kohana_Request_Client->execute(Object(Request))
+#7 /var/www/html/www.igmoo.cn/public/index.php(118): Kohana_Request->execute()
+#8 {main}; referer:
+2015-05-26 02:09:19 uri:/novel/more?category=50111&search=2_%E8%B0%8D%E6%88%98; code:error; msg:SQLSTATE[42S22]: Column not found: 1054 Unknown column 'novel_tags_s' in 'where clause'-exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'novel_tags_s' in 'where clause'' in /var/www/html/www.igmoo.cn/modules/web/classes/zpdo/natural.php:110
+Stack trace:
+#0 /var/www/html/www.igmoo.cn/modules/web/classes/zpdo/natural.php(110): PDOStatement->execute()
+#1 /var/www/html/www.igmoo.cn/application/classes/model/novel.php(150): Zpdo_Natural->get_all('select * from I...')
+#2 /var/www/html/www.igmoo.cn/application/classes/controller/novel.php(102): Model_Novel->get_novellist_for_search(1, 40, '`category_id` =...')
+#3 [internal function]: Controller_Novel->action_more()
+#4 /var/www/html/www.igmoo.cn/system/classes/kohana/request/client/internal.php(118): ReflectionMethod->invoke(Object(Controller_Novel))
+#5 /var/www/html/www.igmoo.cn/system/classes/kohana/request/client.php(64): Kohana_Request_Client_Internal->execute_request(Object(Request))
+#6 /var/www/html/www.igmoo.cn/system/classes/kohana/request.php(1136): Kohana_Request_Client->execute(Object(Request))
+#7 /var/www/html/www.igmoo.cn/public/index.php(118): Kohana_Request->execute()
+#8 {main}; referer:
+2015-05-26 02:13:05 uri:/novel/more?category=50111&search=2_%E5%84%BF%E7%AB%A5; code:error; msg:SQLSTATE[42S22]: Column not found: 1054 Unknown column 'novel_tags_s' in 'where clause'-exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'novel_tags_s' in 'where clause'' in /var/www/html/www.igmoo.cn/modules/web/classes/zpdo/natural.php:110
+Stack trace:
+#0 /var/www/html/www.igmoo.cn/modules/web/classes/zpdo/natural.php(110): PDOStatement->execute()
+#1 /var/www/html/www.igmoo.cn/application/classes/model/novel.php(150): Zpdo_Natural->get_all('select * from I...')
+#2 /var/www/html/www.igmoo.cn/application/classes/controller/novel.php(102): Model_Novel->get_novellist_for_search(1, 40, '`category_id` =...')
+#3 [internal function]: Controller_Novel->action_more()
+#4 /var/www/html/www.igmoo.cn/system/classes/kohana/request/client/internal.php(118): ReflectionMethod->invoke(Object(Controller_Novel))
+#5 /var/www/html/www.igmoo.cn/system/classes/kohana/request/client.php(64): Kohana_Request_Client_Internal->execute_request(Object(Request))
+#6 /var/www/html/www.igmoo.cn/system/classes/kohana/request.php(1136): Kohana_Request_Client->execute(Object(Request))
+#7 /var/www/html/www.igmoo.cn/public/index.php(118): Kohana_Request->execute()
+#8 {main}; referer:
+2015-05-26 02:16:52 uri:/novel/more?category=50111&search=3_%E5%8A%B1%E5%BF%97; code:error; msg:SQLSTATE[42S22]: Column not found: 1054 Unknown column 'novel_tags_s' in 'where clause'-exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'novel_tags_s' in 'where clause'' in /var/www/html/www.igmoo.cn/modules/web/classes/zpdo/natural.php:110
+Stack trace:
+#0 /var/www/html/www.igmoo.cn/modules/web/classes/zpdo/natural.php(110): PDOStatement->execute()
+#1 /var/www/html/www.igmoo.cn/application/classes/model/novel.php(150): Zpdo_Natural->get_all('select * from I...')
+#2 /var/www/html/www.igmoo.cn/application/classes/controller/novel.php(102): Model_Novel->get_novellist_for_search(1, 40, '`category_id` =...')
+#3 [internal function]: Controller_Novel->action_more()
+#4 /var/www/html/www.igmoo.cn/system/classes/kohana/request/client/internal.php(118): ReflectionMethod->invoke(Object(Controller_Novel))
+#5 /var/www/html/www.igmoo.cn/system/classes/kohana/request/client.php(64): Kohana_Request_Client_Internal->execute_request(Object(Request))
+#6 /var/www/html/www.igmoo.cn/system/classes/kohana/request.php(1136): Kohana_Request_Client->execute(Object(Request))
+#7 /var/www/html/www.igmoo.cn/public/index.php(118): Kohana_Request->execute()
+#8 {main}; referer:
+2015-05-26 02:20:39 uri:/novel/more?category=50111&search=2_%E8%A1%8C%E4%B8%9A; code:error; msg:SQLSTATE[42S22]: Column not found: 1054 Unknown column 'novel_tags_s' in 'where clause'-exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'novel_tags_s' in 'where clause'' in /var/www/html/www.igmoo.cn/modules/web/classes/zpdo/natural.php:110
+Stack trace:
+#0 /var/www/html/www.igmoo.cn/modules/web/classes/zpdo/natural.php(110): PDOStatement->execute()
+#1 /var/www/html/www.igmoo.cn/application/classes/model/novel.php(150): Zpdo_Natural->get_all('select * from I...')
+#2 /var/www/html/www.igmoo.cn/application/classes/controller/novel.php(102): Model_Novel->get_novellist_for_search(1, 40, '`category_id` =...')
+#3 [internal function]: Controller_Novel->action_more()
+#4 /var/www/html/www.igmoo.cn/system/classes/kohana/request/client/internal.php(118): ReflectionMethod->invoke(Object(Controller_Novel))
+#5 /var/www/html/www.igmoo.cn/system/classes/kohana/request/client.php(64): Kohana_Request_Client_Internal->execute_request(Object(Request))
+#6 /var/www/html/www.igmoo.cn/system/classes/kohana/request.php(1136): Kohana_Request_Client->execute(Object(Request))
+#7 /var/www/html/www.igmoo.cn/public/index.php(118): Kohana_Request->execute()
+#8 {main}; referer:
+2015-05-26 02:24:26 uri:/novel/more?category=50111&search=3_%E6%9A%97%E9%BB%91; code:error; msg:SQLSTATE[42S22]: Column not found: 1054 Unknown column 'novel_tags_s' in 'where clause'-exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'novel_tags_s' in 'where clause'' in /var/www/html/www.igmoo.cn/modules/web/classes/zpdo/natural.php:110
+Stack trace:
+#0 /var/www/html/www.igmoo.cn/modules/web/classes/zpdo/natural.php(110): PDOStatement->execute()
+#1 /var/www/html/www.igmoo.cn/application/classes/model/novel.php(150): Zpdo_Natural->get_all('select * from I...')
+#2 /var/www/html/www.igmoo.cn/application/classes/controller/novel.php(102): Model_Novel->get_novellist_for_search(1, 40, '`category_id` =...')
+#3 [internal function]: Controller_Novel->action_more()
+#4 /var/www/html/www.igmoo.cn/system/classes/kohana/request/client/internal.php(118): ReflectionMethod->invoke(Object(Controller_Novel))
+#5 /var/www/html/www.igmoo.cn/system/classes/kohana/request/client.php(64): Kohana_Request_Client_Internal->execute_request(Object(Request))
+#6 /var/www/html/www.igmoo.cn/system/classes/kohana/request.php(1136): Kohana_Request_Client->execute(Object(Request))
+#7 /var/www/html/www.igmoo.cn/public/index.php(118): Kohana_Request->execute()
+#8 {main}; referer:
+2015-05-26 02:28:13 uri:/novel/more?category=50111&search=3_%E6%88%8F%E8%AF%B4; code:error; msg:SQLSTATE[42S22]: Column not found: 1054 Unknown column 'novel_tags_s' in 'where clause'-exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'novel_tags_s' in 'where clause'' in /var/www/html/www.igmoo.cn/modules/web/classes/zpdo/natural.php:110
+Stack trace:
+#0 /var/www/html/www.igmoo.cn/modules/web/classes/zpdo/natural.php(110): PDOStatement->execute()
+#1 /var/www/html/www.igmoo.cn/application/classes/model/novel.php(150): Zpdo_Natural->get_all('select * from I...')
+#2 /var/www/html/www.igmoo.cn/application/classes/controller/novel.php(102): Model_Novel->get_novellist_for_search(1, 40, '`category_id` =...')
+#3 [internal function]: Controller_Novel->action_more()
+#4 /var/www/html/www.igmoo.cn/system/classes/kohana/request/client/internal.php(118): ReflectionMethod->invoke(Object(Controller_Novel))
+#5 /var/www/html/www.igmoo.cn/system/classes/kohana/request/client.php(64): Kohana_Request_Client_Internal->execute_request(Object(Request))
+#6 /var/www/html/www.igmoo.cn/system/classes/kohana/request.php(1136): Kohana_Request_Client->execute(Object(Request))
+#7 /var/www/html/www.igmoo.cn/public/index.php(118): Kohana_Request->execute()
+#8 {main}; referer:
+2015-05-26 02:32:01 uri:/novel/more?category=50111&search=2_%E8%AD%A6%E5%8C%AA; code:error; msg:SQLSTATE[42S22]: Column not found: 1054 Unknown column 'novel_tags_s' in 'where clause'-exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'novel_tags_s' in 'where clause'' in /var/www/html/www.igmoo.cn/modules/web/classes/zpdo/natural.php:110
+Stack trace:
+#0 /var/www/html/www.igmoo.cn/modules/web/classes/zpdo/natural.php(110): PDOStatement->execute()
+#1 /var/www/html/www.igmoo.cn/application/classes/model/novel.php(150): Zpdo_Natural->get_all('select * from I...')
+#2 /var/www/html/www.igmoo.cn/application/classes/controller/novel.php(102): Model_Novel->get_novellist_for_search(1, 40, '`category_id` =...')
+#3 [internal function]: Controller_Novel->action_more()
+#4 /var/www/html/www.igmoo.cn/system/classes/kohana/request/client/internal.php(118): ReflectionMethod->invoke(Object(Controller_Novel))
+#5 /var/www/html/www.igmoo.cn/system/classes/kohana/request/client.php(64): Kohana_Request_Client_Internal->execute_request(Object(Request))
+#6 /var/www/html/www.igmoo.cn/system/classes/kohana/request.php(1136): Kohana_Request_Client->execute(Object(Request))
+#7 /var/www/html/www.igmoo.cn/public/index.php(118): Kohana_Request->execute()
+#8 {main}; referer:
+2015-05-26 02:35:47 uri:/novel/more?category=50111&search=1_%E6%9C%AA%E5%87%BA%E7%89%88; code:error; msg:SQLSTATE[42S22]: Column not found: 1054 Unknown column 'novel_tags_s' in 'where clause'-exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'novel_tags_s' in 'where clause'' in /var/www/html/www.igmoo.cn/modules/web/classes/zpdo/natural.php:110
+Stack trace:
+#0 /var/www/html/www.igmoo.cn/modules/web/classes/zpdo/natural.php(110): PDOStatement->execute()
+#1 /var/www/html/www.igmoo.cn/application/classes/model/novel.php(150): Zpdo_Natural->get_all('select * from I...')
+#2 /var/www/html/www.igmoo.cn/application/classes/controller/novel.php(102): Model_Novel->get_novellist_for_search(1, 40, '`category_id` =...')
+#3 [internal function]: Controller_Novel->action_more()
+#4 /var/www/html/www.igmoo.cn/system/classes/kohana/request/client/internal.php(118): ReflectionMethod->invoke(Object(Controller_Novel))
+#5 /var/www/html/www.igmoo.cn/system/classes/kohana/request/client.php(64): Kohana_Request_Client_Internal->execute_request(Object(Request))
+#6 /var/www/html/www.igmoo.cn/system/classes/kohana/request.php(1136): Kohana_Request_Client->execute(Object(Request))
+#7 /var/www/html/www.igmoo.cn/public/index.php(118): Kohana_Request->execute()
+#8 {main}; referer:
+2015-05-26 02:43:24 uri:/novel/more?category=50111&search=1_%E5%B7%B2%E5%87%BA%E7%89%88; code:error; msg:SQLSTATE[42S22]: Column not found: 1054 Unknown column 'novel_tags_s' in 'where clause'-exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'novel_tags_s' in 'where clause'' in /var/www/html/www.igmoo.cn/modules/web/classes/zpdo/natural.php:110
+Stack trace:
+#0 /var/www/html/www.igmoo.cn/modules/web/classes/zpdo/natural.php(110): PDOStatement->execute()
+#1 /var/www/html/www.igmoo.cn/application/classes/model/novel.php(150): Zpdo_Natural->get_all('select * from I...')
+#2 /var/www/html/www.igmoo.cn/application/classes/controller/novel.php(102): Model_Novel->get_novellist_for_search(1, 40, '`category_id` =...')
+#3 [internal function]: Controller_Novel->action_more()
+#4 /var/www/html/www.igmoo.cn/system/classes/kohana/request/client/internal.php(118): ReflectionMethod->invoke(Object(Controller_Novel))
+#5 /var/www/html/www.igmoo.cn/system/classes/kohana/request/client.php(64): Kohana_Request_Client_Internal->execute_request(Object(Request))
+#6 /var/www/html/www.igmoo.cn/system/classes/kohana/request.php(1136): Kohana_Request_Client->execute(Object(Request))
+#7 /var/www/html/www.igmoo.cn/public/index.php(118): Kohana_Request->execute()
+#8 {main}; referer:
+2015-05-26 02:47:08 uri:/novel/more?category=50111&search=0_%E5%86%9B%E4%BA%8B%E6%88%98%E4%BA%89; code:error; msg:SQLSTATE[42S22]: Column not found: 1054 Unknown column 'novel_tags_s' in 'where clause'-exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'novel_tags_s' in 'where clause'' in /var/www/html/www.igmoo.cn/modules/web/classes/zpdo/natural.php:110
+Stack trace:
+#0 /var/www/html/www.igmoo.cn/modules/web/classes/zpdo/natural.php(110): PDOStatement->execute()
+#1 /var/www/html/www.igmoo.cn/application/classes/model/novel.php(150): Zpdo_Natural->get_all('select * from I...')
+#2 /var/www/html/www.igmoo.cn/application/classes/controller/novel.php(102): Model_Novel->get_novellist_for_search(1, 40, '`category_id` =...')
+#3 [internal function]: Controller_Novel->action_more()
+#4 /var/www/html/www.igmoo.cn/system/classes/kohana/request/client/internal.php(118): ReflectionMethod->invoke(Object(Controller_Novel))
+#5 /var/www/html/www.igmoo.cn/system/classes/kohana/request/client.php(64): Kohana_Request_Client_Internal->execute_request(Object(Request))
+#6 /var/www/html/www.igmoo.cn/system/classes/kohana/request.php(1136): Kohana_Request_Client->execute(Object(Request))
+#7 /var/www/html/www.igmoo.cn/public/index.php(118): Kohana_Request->execute()
+#8 {main}; referer:
+2015-05-26 02:50:55 uri:/novel/more?category=50111&search=0_%E6%AD%A6%E4%BE%A0%E4%BB%99%E4%BE%A0; code:error; msg:SQLSTATE[42S22]: Column not found: 1054 Unknown column 'novel_tags_s' in 'where clause'-exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'novel_tags_s' in 'where clause'' in /var/www/html/www.igmoo.cn/modules/web/classes/zpdo/natural.php:110
+Stack trace:
+#0 /var/www/html/www.igmoo.cn/modules/web/classes/zpdo/natural.php(110): PDOStatement->execute()
+#1 /var/www/html/www.igmoo.cn/application/classes/model/novel.php(150): Zpdo_Natural->get_all('select * from I...')
+#2 /var/www/html/www.igmoo.cn/application/classes/controller/novel.php(102): Model_Novel->get_novellist_for_search(1, 40, '`category_id` =...')
+#3 [internal function]: Controller_Novel->action_more()
+#4 /var/www/html/www.igmoo.cn/system/classes/kohana/request/client/internal.php(118): ReflectionMethod->invoke(Object(Controller_Novel))
+#5 /var/www/html/www.igmoo.cn/system/classes/kohana/request/client.php(64): Kohana_Request_Client_Internal->execute_request(Object(Request))
+#6 /var/www/html/www.igmoo.cn/system/classes/kohana/request.php(1136): Kohana_Request_Client->execute(Object(Request))
+#7 /var/www/html/www.igmoo.cn/public/index.php(118): Kohana_Request->execute()
+#8 {main}; referer:
+2015-05-26 02:54:43 uri:/novel/more?category=50111&search=0_%E5%8E%86%E5%8F%B2%E4%BC%A0%E5%A5%87; code:error; msg:SQLSTATE[42S22]: Column not found: 1054 Unknown column 'novel_tags_s' in 'where clause'-exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'novel_tags_s' in 'where clause'' in /var/www/html/www.igmoo.cn/modules/web/classes/zpdo/natural.php:110
+Stack trace:
+#0 /var/www/html/www.igmoo.cn/modules/web/classes/zpdo/natural.php(110): PDOStatement->execute()
+#1 /var/www/html/www.igmoo.cn/application/classes/model/novel.php(150): Zpdo_Natural->get_all('select * from I...')
+#2 /var/www/html/www.igmoo.cn/application/classes/controller/novel.php(102): Model_Novel->get_novellist_for_search(1, 40, '`category_id` =...')
+#3 [internal function]: Controller_Novel->action_more()
+#4 /var/www/html/www.igmoo.cn/system/classes/kohana/request/client/internal.php(118): ReflectionMethod->invoke(Object(Controller_Novel))
+#5 /var/www/html/www.igmoo.cn/system/classes/kohana/request/client.php(64): Kohana_Request_Client_Internal->execute_request(Object(Request))
+#6 /var/www/html/www.igmoo.cn/system/classes/kohana/request.php(1136): Kohana_Request_Client->execute(Object(Request))
+#7 /var/www/html/www.igmoo.cn/public/index.php(118): Kohana_Request->execute()
+#8 {main}; referer:
+2015-05-26 02:58:29 uri:/novel/more?category=50111&search=0_%E7%BB%BC%E5%90%88%E5%85%B6%E4%BB%96; code:error; msg:SQLSTATE[42S22]: Column not found: 1054 Unknown column 'novel_tags_s' in 'where clause'-exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'novel_tags_s' in 'where clause'' in /var/www/html/www.igmoo.cn/modules/web/classes/zpdo/natural.php:110
+Stack trace:
+#0 /var/www/html/www.igmoo.cn/modules/web/classes/zpdo/natural.php(110): PDOStatement->execute()
+#1 /var/www/html/www.igmoo.cn/application/classes/model/novel.php(150): Zpdo_Natural->get_all('select * from I...')
+#2 /var/www/html/www.igmoo.cn/application/classes/controller/novel.php(102): Model_Novel->get_novellist_for_search(1, 40, '`category_id` =...')
+#3 [internal function]: Controller_Novel->action_more()
+#4 /var/www/html/www.igmoo.cn/system/classes/kohana/request/client/internal.php(118): ReflectionMethod->invoke(Object(Controller_Novel))
+#5 /var/www/html/www.igmoo.cn/system/classes/kohana/request/client.php(64): Kohana_Request_Client_Internal->execute_request(Object(Request))
+#6 /var/www/html/www.igmoo.cn/system/classes/kohana/request.php(1136): Kohana_Request_Client->execute(Object(Request))
+#7 /var/www/html/www.igmoo.cn/public/index.php(118): Kohana_Request->execute()
+#8 {main}; referer:
+2015-05-26 03:02:16 uri:/novel/more?category=50111&search=0_%E6%B0%91%E5%9B%BD%E6%BC%94%E4%B9%89; code:error; msg:SQLSTATE[42S22]: Column not found: 1054 Unknown column 'novel_tags_s' in 'where clause'-exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'novel_tags_s' in 'where clause'' in /var/www/html/www.igmoo.cn/modules/web/classes/zpdo/natural.php:110
+Stack trace:
+#0 /var/www/html/www.igmoo.cn/modules/web/classes/zpdo/natural.php(110): PDOStatement->execute()
+#1 /var/www/html/www.igmoo.cn/application/classes/model/novel.php(150): Zpdo_Natural->get_all('select * from I...')
+#2 /var/www/html/www.igmoo.cn/application/classes/controller/novel.php(102): Model_Novel->get_novellist_for_search(1, 40, '`category_id` =...')
+#3 [internal function]: Controller_Novel->action_more()
+#4 /var/www/html/www.igmoo.cn/system/classes/kohana/request/client/internal.php(118): ReflectionMethod->invoke(Object(Controller_Novel))
+#5 /var/www/html/www.igmoo.cn/system/classes/kohana/request/client.php(64): Kohana_Request_Client_Internal->execute_request(Object(Request))
+#6 /var/www/html/www.igmoo.cn/system/classes/kohana/request.php(1136): Kohana_Request_Client->execute(Object(Request))
+#7 /var/www/html/www.igmoo.cn/public/index.php(118): Kohana_Request->execute()
+#8 {main}; referer:
+2015-05-26 03:06:04 uri:/novel/more?category=50111&search=0_%E9%9D%92%E6%98%A5%E8%A8%80%E6%83%85; code:error; msg:SQLSTATE[42S22]: Column not found: 1054 Unknown column 'novel_tags_s' in 'where clause'-exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'novel_tags_s' in 'where clause'' in /var/www/html/www.igmoo.cn/modules/web/classes/zpdo/natural.php:110
+Stack trace:
+#0 /var/www/html/www.igmoo.cn/modules/web/classes/zpdo/natural.php(110): PDOStatement->execute()
+#1 /var/www/html/www.igmoo.cn/application/classes/model/novel.php(150): Zpdo_Natural->get_all('select * from I...')
+#2 /var/www/html/www.igmoo.cn/application/classes/controller/novel.php(102): Model_Novel->get_novellist_for_search(1, 40, '`category_id` =...')
+#3 [internal function]: Controller_Novel->action_more()
+#4 /var/www/html/www.igmoo.cn/system/classes/kohana/request/client/internal.php(118): ReflectionMethod->invoke(Object(Controller_Novel))
+#5 /var/www/html/www.igmoo.cn/system/classes/kohana/request/client.php(64): Kohana_Request_Client_Internal->execute_request(Object(Request))
+#6 /var/www/html/www.igmoo.cn/system/classes/kohana/request.php(1136): Kohana_Request_Client->execute(Object(Request))
+#7 /var/www/html/www.igmoo.cn/public/index.php(118): Kohana_Request->execute()
+#8 {main}; referer:
+2015-05-26 03:09:50 uri:/novel/more?category=50111&search=0_%E6%81%90%E6%80%96%E6%82%AC%E7%96%91; code:error; msg:SQLSTATE[42S22]: Column not found: 1054 Unknown column 'novel_tags_s' in 'where clause'-exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'novel_tags_s' in 'where clause'' in /var/www/html/www.igmoo.cn/modules/web/classes/zpdo/natural.php:110
+Stack trace:
+#0 /var/www/html/www.igmoo.cn/modules/web/classes/zpdo/natural.php(110): PDOStatement->execute()
+#1 /var/www/html/www.igmoo.cn/application/classes/model/novel.php(150): Zpdo_Natural->get_all('select * from I...')
+#2 /var/www/html/www.igmoo.cn/application/classes/controller/novel.php(102): Model_Novel->get_novellist_for_search(1, 40, '`category_id` =...')
+#3 [internal function]: Controller_Novel->action_more()
+#4 /var/www/html/www.igmoo.cn/system/classes/kohana/request/client/internal.php(118): ReflectionMethod->invoke(Object(Controller_Novel))
+#5 /var/www/html/www.igmoo.cn/system/classes/kohana/request/client.php(64): Kohana_Request_Client_Internal->execute_request(Object(Request))
+#6 /var/www/html/www.igmoo.cn/system/classes/kohana/request.php(1136): Kohana_Request_Client->execute(Object(Request))
+#7 /var/www/html/www.igmoo.cn/public/index.php(118): Kohana_Request->execute()
+#8 {main}; referer:
+2015-05-26 03:13:37 uri:/novel/more?category=50111&search=0_%E5%AE%B6%E5%BA%AD%E4%BC%A6%E7%90%86; code:error; msg:SQLSTATE[42S22]: Column not found: 1054 Unknown column 'novel_tags_s' in 'where clause'-exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'novel_tags_s' in 'where clause'' in /var/www/html/www.igmoo.cn/modules/web/classes/zpdo/natural.php:110
+Stack trace:
+#0 /var/www/html/www.igmoo.cn/modules/web/classes/zpdo/natural.php(110): PDOStatement->execute()
+#1 /var/www/html/www.igmoo.cn/application/classes/model/novel.php(150): Zpdo_Natural->get_all('select * from I...')
+#2 /var/www/html/www.igmoo.cn/application/classes/controller/novel.php(102): Model_Novel->get_novellist_for_search(1, 40, '`category_id` =...')
+#3 [internal function]: Controller_Novel->action_more()
+#4 /var/www/html/www.igmoo.cn/system/classes/kohana/request/client/internal.php(118): ReflectionMethod->invoke(Object(Controller_Novel))
+#5 /var/www/html/www.igmoo.cn/system/classes/kohana/request/client.php(64): Kohana_Request_Client_Internal->execute_request(Object(Request))
+#6 /var/www/html/www.igmoo.cn/system/classes/kohana/request.php(1136): Kohana_Request_Client->execute(Object(Request))
+#7 /var/www/html/www.igmoo.cn/public/index.php(118): Kohana_Request->execute()
+#8 {main}; referer:
+2015-05-26 03:17:27 uri:/novel/more?category=50111&search=0_%E5%8F%A4%E8%A8%80%E7%A9%BF%E8%B6%8A; code:error; msg:SQLSTATE[42S22]: Column not found: 1054 Unknown column 'novel_tags_s' in 'where clause'-exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'novel_tags_s' in 'where clause'' in /var/www/html/www.igmoo.cn/modules/web/classes/zpdo/natural.php:110
+Stack trace:
+#0 /var/www/html/www.igmoo.cn/modules/web/classes/zpdo/natural.php(110): PDOStatement->execute()
+#1 /var/www/html/www.igmoo.cn/application/classes/model/novel.php(150): Zpdo_Natural->get_all('select * from I...')
+#2 /var/www/html/www.igmoo.cn/application/classes/controller/novel.php(102): Model_Novel->get_novellist_for_search(1, 40, '`category_id` =...')
+#3 [internal function]: Controller_Novel->action_more()
+#4 /var/www/html/www.igmoo.cn/system/classes/kohana/request/client/internal.php(118): ReflectionMethod->invoke(Object(Controller_Novel))
+#5 /var/www/html/www.igmoo.cn/system/classes/kohana/request/client.php(64): Kohana_Request_Client_Internal->execute_request(Object(Request))
+#6 /var/www/html/www.igmoo.cn/system/classes/kohana/request.php(1136): Kohana_Request_Client->execute(Object(Request))
+#7 /var/www/html/www.igmoo.cn/public/index.php(118): Kohana_Request->execute()
+#8 {main}; referer:
+2015-05-26 04:18:03 uri:/robots.txt; code:404; msg:Unable to find a route to match the URI: robots.txt-HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: robots.txt ~ SYSPATH/classes/kohana/request.php [ 1124 ]; referer:
+2015-05-26 04:18:32 uri:/robots.txt; code:404; msg:Unable to find a route to match the URI: robots.txt-HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: robots.txt ~ SYSPATH/classes/kohana/request.php [ 1124 ]; referer:
+2015-05-26 04:19:44 uri:/robots.txt; code:404; msg:Unable to find a route to match the URI: robots.txt-HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: robots.txt ~ SYSPATH/classes/kohana/request.php [ 1124 ]; referer:
+2015-05-26 04:20:04 uri:/robots.txt; code:404; msg:Unable to find a route to match the URI: robots.txt-HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: robots.txt ~ SYSPATH/classes/kohana/request.php [ 1124 ]; referer:
+2015-05-26 04:21:20 uri:/robots.txt; code:404; msg:Unable to find a route to match the URI: robots.txt-HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: robots.txt ~ SYSPATH/classes/kohana/request.php [ 1124 ]; referer:
+2015-05-26 04:21:36 uri:/robots.txt; code:404; msg:Unable to find a route to match the URI: robots.txt-HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: robots.txt ~ SYSPATH/classes/kohana/request.php [ 1124 ]; referer:
+2015-05-26 04:35:07 uri:/novel/more?category=50112&search=2_%E6%97%B6%E8%A3%85; code:error; msg:SQLSTATE[42S22]: Column not found: 1054 Unknown column 'novel_tags_s' in 'where clause'-exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'novel_tags_s' in 'where clause'' in /var/www/html/www.igmoo.cn/modules/web/classes/zpdo/natural.php:110
+Stack trace:
+#0 /var/www/html/www.igmoo.cn/modules/web/classes/zpdo/natural.php(110): PDOStatement->execute()
+#1 /var/www/html/www.igmoo.cn/application/classes/model/novel.php(150): Zpdo_Natural->get_all('select * from I...')
+#2 /var/www/html/www.igmoo.cn/application/classes/controller/novel.php(102): Model_Novel->get_novellist_for_search(1, 40, '`category_id` =...')
+#3 [internal function]: Controller_Novel->action_more()
+#4 /var/www/html/www.igmoo.cn/system/classes/kohana/request/client/internal.php(118): ReflectionMethod->invoke(Object(Controller_Novel))
+#5 /var/www/html/www.igmoo.cn/system/classes/kohana/request/client.php(64): Kohana_Request_Client_Internal->execute_request(Object(Request))
+#6 /var/www/html/www.igmoo.cn/system/classes/kohana/request.php(1136): Kohana_Request_Client->execute(Object(Request))
+#7 /var/www/html/www.igmoo.cn/public/index.php(118): Kohana_Request->execute()
+#8 {main}; referer:http://www.xgomo.com/novel/more?category=50112&search=2_%E6%97%B6%E8%A3%85
+2015-05-26 04:35:51 uri:/novel/more?category=50114&search=0_%E6%94%BF%E6%B2%BB%E5%86%9B%E4%BA%8B; code:error; msg:SQLSTATE[42S22]: Column not found: 1054 Unknown column 'novel_tags_s' in 'where clause'-exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'novel_tags_s' in 'where clause'' in /var/www/html/www.igmoo.cn/modules/web/classes/zpdo/natural.php:110
+Stack trace:
+#0 /var/www/html/www.igmoo.cn/modules/web/classes/zpdo/natural.php(110): PDOStatement->execute()
+#1 /var/www/html/www.igmoo.cn/application/classes/model/novel.php(150): Zpdo_Natural->get_all('select * from I...')
+#2 /var/www/html/www.igmoo.cn/application/classes/controller/novel.php(102): Model_Novel->get_novellist_for_search(1, 40, '`category_id` =...')
+#3 [internal function]: Controller_Novel->action_more()
+#4 /var/www/html/www.igmoo.cn/system/classes/kohana/request/client/internal.php(118): ReflectionMethod->invoke(Object(Controller_Novel))
+#5 /var/www/html/www.igmoo.cn/system/classes/kohana/request/client.php(64): Kohana_Request_Client_Internal->execute_request(Object(Request))
+#6 /var/www/html/www.igmoo.cn/system/classes/kohana/request.php(1136): Kohana_Request_Client->execute(Object(Request))
+#7 /var/www/html/www.igmoo.cn/public/index.php(118): Kohana_Request->execute()
+#8 {main}; referer:http://www.xgomo.com/novel/more?category=50114&search=0_%E6%94%BF%E6%B2%BB%E5%86%9B%E4%BA%8B
+2015-05-26 04:51:14 uri:/robots.txt; code:404; msg:Unable to find a route to match the URI: robots.txt-HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: robots.txt ~ SYSPATH/classes/kohana/request.php [ 1124 ]; referer:
+2015-05-26 07:37:40 uri:/robots.txt; code:404; msg:Unable to find a route to match the URI: robots.txt-HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: robots.txt ~ SYSPATH/classes/kohana/request.php [ 1124 ]; referer:
+2015-05-26 08:38:59 uri:/robots.txt; code:404; msg:Unable to find a route to match the URI: robots.txt-HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: robots.txt ~ SYSPATH/classes/kohana/request.php [ 1124 ]; referer:
+2015-05-26 08:45:50 uri:/ipc$; code:404; msg:The requested URL ipc$ was not found on this server.-HTTP_Exception_404 [ 404 ]: The requested URL ipc$ was not found on this server. ~ SYSPATH/classes/kohana/request/client/internal.php [ 87 ]; referer:
+2015-05-26 08:49:56 uri:/robots.txt; code:404; msg:Unable to find a route to match the URI: robots.txt-HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: robots.txt ~ SYSPATH/classes/kohana/request.php [ 1124 ]; referer:
+2015-05-26 09:01:41 uri:/robots.txt; code:404; msg:Unable to find a route to match the URI: robots.txt-HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: robots.txt ~ SYSPATH/classes/kohana/request.php [ 1124 ]; referer:
+2015-05-26 10:09:48 uri:/robots.txt; code:404; msg:Unable to find a route to match the URI: robots.txt-HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: robots.txt ~ SYSPATH/classes/kohana/request.php [ 1124 ]; referer:
+2015-05-26 11:02:54 uri:/trade/order/payremind?id=1524561516100; code:404; msg:The requested URL trade/order/payremind was not found on this server.-HTTP_Exception_404 [ 404 ]: The requested URL trade/order/payremind was not found on this server. ~ SYSPATH/classes/kohana/request/client/internal.php [ 113 ]; referer:http://www.xgomo.com/trade/order/list4buyer?from=pay
+2015-05-26 11:03:00 uri:/trade/order/payremind; code:404; msg:The requested URL trade/order/payremind was not found on this server.-HTTP_Exception_404 [ 404 ]: The requested URL trade/order/payremind was not found on this server. ~ SYSPATH/classes/kohana/request/client/internal.php [ 113 ]; referer:
+2015-05-26 11:03:08 uri:/trade/order/payremind; code:404; msg:The requested URL trade/order/payremind was not found on this server.-HTTP_Exception_404 [ 404 ]: The requested URL trade/order/payremind was not found on this server. ~ SYSPATH/classes/kohana/request/client/internal.php [ 113 ]; referer:http://www.xgomo.com/trade/order/payremind
+2015-05-26 11:03:11 uri:/trade/order/payremind; code:404; msg:The requested URL trade/order/payremind was not found on this server.-HTTP_Exception_404 [ 404 ]: The requested URL trade/order/payremind was not found on this server. ~ SYSPATH/classes/kohana/request/client/internal.php [ 113 ]; referer:http://www.xgomo.com/trade/order/payremind
+2015-05-26 11:10:52 uri:/robots.txt; code:404; msg:Unable to find a route to match the URI: robots.txt-HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: robots.txt ~ SYSPATH/classes/kohana/request.php [ 1124 ]; referer:
+2015-05-26 11:11:37 uri:/robots.txt; code:404; msg:Unable to find a route to match the URI: robots.txt-HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: robots.txt ~ SYSPATH/classes/kohana/request.php [ 1124 ]; referer:
+2015-05-26 11:55:30 uri:/robots.txt; code:404; msg:Unable to find a route to match the URI: robots.txt-HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: robots.txt ~ SYSPATH/classes/kohana/request.php [ 1124 ]; referer:http://www.xgomo.com/robots.txt
+2015-05-26 13:36:58 uri:/team/contact; code:404; msg:The requested URL team/contact was not found on this server.-HTTP_Exception_404 [ 404 ]: The requested URL team/contact was not found on this server. ~ SYSPATH/classes/kohana/request/client/internal.php [ 87 ]; referer:http://www.xgomo.com/company
+2015-05-26 14:12:55 uri:/robots.txt; code:404; msg:Unable to find a route to match the URI: robots.txt-HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: robots.txt ~ SYSPATH/classes/kohana/request.php [ 1124 ]; referer:
+2015-05-26 15:39:16 uri:/webdav/; code:404; msg:The requested URL webdav was not found on this server.-HTTP_Exception_404 [ 404 ]: The requested URL webdav was not found on this server. ~ SYSPATH/classes/kohana/request/client/internal.php [ 87 ]; referer:
+2015-05-26 16:20:23 uri:/team/about; code:404; msg:The requested URL team/about was not found on this server.-HTTP_Exception_404 [ 404 ]: The requested URL team/about was not found on this server. ~ SYSPATH/classes/kohana/request/client/internal.php [ 87 ]; referer:
+2015-05-26 17:02:10 uri:/ipc$; code:404; msg:The requested URL ipc$ was not found on this server.-HTTP_Exception_404 [ 404 ]: The requested URL ipc$ was not found on this server. ~ SYSPATH/classes/kohana/request/client/internal.php [ 87 ]; referer:
+2015-05-26 18:30:22 uri:/robots.txt; code:404; msg:Unable to find a route to match the URI: robots.txt-HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: robots.txt ~ SYSPATH/classes/kohana/request.php [ 1124 ]; referer:
+2015-05-26 19:14:29 uri:/robots.txt; code:404; msg:Unable to find a route to match the URI: robots.txt-HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: robots.txt ~ SYSPATH/classes/kohana/request.php [ 1124 ]; referer:
+2015-05-26 19:14:32 uri:/robots.txt; code:404; msg:Unable to find a route to match the URI: robots.txt-HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: robots.txt ~ SYSPATH/classes/kohana/request.php [ 1124 ]; referer:http://www.xgomo.com/robots.txt
+2015-05-26 19:46:52 uri:/robots.txt; code:404; msg:Unable to find a route to match the URI: robots.txt-HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: robots.txt ~ SYSPATH/classes/kohana/request.php [ 1124 ]; referer:
+2015-05-26 20:02:14 uri:/robots.txt; code:404; msg:Unable to find a route to match the URI: robots.txt-HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: robots.txt ~ SYSPATH/classes/kohana/request.php [ 1124 ]; referer:
+2015-05-26 20:50:12 uri:/novel/more?category=50112&search=2_%E8%B0%8D%E6%88%98; code:error; msg:SQLSTATE[42S22]: Column not found: 1054 Unknown column 'novel_tags_s' in 'where clause'-exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'novel_tags_s' in 'where clause'' in /var/www/html/www.igmoo.cn/modules/web/classes/zpdo/natural.php:110
+Stack trace:
+#0 /var/www/html/www.igmoo.cn/modules/web/classes/zpdo/natural.php(110): PDOStatement->execute()
+#1 /var/www/html/www.igmoo.cn/application/classes/model/novel.php(150): Zpdo_Natural->get_all('select * from I...')
+#2 /var/www/html/www.igmoo.cn/application/classes/controller/novel.php(102): Model_Novel->get_novellist_for_search(1, 40, '`category_id` =...')
+#3 [internal function]: Controller_Novel->action_more()
+#4 /var/www/html/www.igmoo.cn/system/classes/kohana/request/client/internal.php(118): ReflectionMethod->invoke(Object(Controller_Novel))
+#5 /var/www/html/www.igmoo.cn/system/classes/kohana/request/client.php(64): Kohana_Request_Client_Internal->execute_request(Object(Request))
+#6 /var/www/html/www.igmoo.cn/system/classes/kohana/request.php(1136): Kohana_Request_Client->execute(Object(Request))
+#7 /var/www/html/www.igmoo.cn/public/index.php(118): Kohana_Request->execute()
+#8 {main}; referer:http://www.xgomo.com/novel/more?category=50112&search=2_%E8%B0%8D%E6%88%98
+2015-05-26 20:50:12 uri:/novel/more?category=50112&search=0_%E7%94%B5%E5%BD%B1%E5%89%A7%E6%9C%AC; code:error; msg:SQLSTATE[42S22]: Column not found: 1054 Unknown column 'novel_tags_s' in 'where clause'-exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'novel_tags_s' in 'where clause'' in /var/www/html/www.igmoo.cn/modules/web/classes/zpdo/natural.php:110
+Stack trace:
+#0 /var/www/html/www.igmoo.cn/modules/web/classes/zpdo/natural.php(110): PDOStatement->execute()
+#1 /var/www/html/www.igmoo.cn/application/classes/model/novel.php(150): Zpdo_Natural->get_all('select * from I...')
+#2 /var/www/html/www.igmoo.cn/application/classes/controller/novel.php(102): Model_Novel->get_novellist_for_search(1, 40, '`category_id` =...')
+#3 [internal function]: Controller_Novel->action_more()
+#4 /var/www/html/www.igmoo.cn/system/classes/kohana/request/client/internal.php(118): ReflectionMethod->invoke(Object(Controller_Novel))
+#5 /var/www/html/www.igmoo.cn/system/classes/kohana/request/client.php(64): Kohana_Request_Client_Internal->execute_request(Object(Request))
+#6 /var/www/html/www.igmoo.cn/system/classes/kohana/request.php(1136): Kohana_Request_Client->execute(Object(Request))
+#7 /var/www/html/www.igmoo.cn/public/index.php(118): Kohana_Request->execute()
+#8 {main}; referer:http://www.xgomo.com/novel/more?category=50112&search=0_%E7%94%B5%E5%BD%B1%E5%89%A7%E6%9C%AC
+2015-05-26 21:42:20 uri:/robots.txt; code:404; msg:Unable to find a route to match the URI: robots.txt-HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: robots.txt ~ SYSPATH/classes/kohana/request.php [ 1124 ]; referer:
+2015-05-26 21:42:21 uri:/robots.txt; code:404; msg:Unable to find a route to match the URI: robots.txt-HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: robots.txt ~ SYSPATH/classes/kohana/request.php [ 1124 ]; referer:
+2015-05-26 21:48:49 uri:/123; code:404; msg:The requested URL 123 was not found on this server.-HTTP_Exception_404 [ 404 ]: The requested URL 123 was not found on this server. ~ SYSPATH/classes/kohana/request/client/internal.php [ 87 ]; referer:
+2015-05-26 23:11:33 uri:/webscan38502863.txt; code:404; msg:Unable to find a route to match the URI: webscan38502863.txt-HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: webscan38502863.txt ~ SYSPATH/classes/kohana/request.php [ 1124 ]; referer:http://121.40.211.61/
+2015-05-26 23:11:34 uri:/webscan38502863.txt; code:404; msg:Unable to find a route to match the URI: webscan38502863.txt-HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: webscan38502863.txt ~ SYSPATH/classes/kohana/request.php [ 1124 ]; referer:http://121.40.211.61/
+2015-05-26 23:28:04 uri:/robots.txt; code:404; msg:Unable to find a route to match the URI: robots.txt-HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: robots.txt ~ SYSPATH/classes/kohana/request.php [ 1124 ]; referer:
+2015-05-26 23:50:57 uri:/ipc$; code:404; msg:The requested URL ipc$ was not found on this server.-HTTP_Exception_404 [ 404 ]: The requested URL ipc$ was not found on this server. ~ SYSPATH/classes/kohana/request/client/internal.php [ 87 ]; referer:
+2015-05-26 23:51:37 uri:/robots.txt; code:404; msg:Unable to find a route to match the URI: robots.txt-HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: robots.txt ~ SYSPATH/classes/kohana/request.php [ 1124 ]; referer:

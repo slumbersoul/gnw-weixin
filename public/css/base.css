@@ -1,0 +1,188 @@
+/*
+* 基础样式
+* @author slumber 2011-06-10.
+*/
+
+/*
+* 3 5 10 像素圆角
+* @author slumber 2011-06-10.
+*/
+.r3 {border-radius: 3px;}
+.r5 {border-radius: 5px;}
+.r10 {border-radius:10px;}
+.rt3 {border-radius: 3px 3px 0 0;}
+.rt5 {border-radius: 5px 5px 0 0;}
+.rt10 {border-radius: 10px 10px 0 0;}
+.rb3 {border-radius: 0 0 3px 3px;}
+.rb5 {border-radius: 0 0 5px 5px;}
+.rb10 {border-radius: 0 0 10px 10px;}
+.rl3 {border-radius: 3px 0 0 3px;}
+.rl5 {border-radius: 5px 0 0 5px;}
+.rl10 {border-radius: 10px 0 0 10px;}
+.rr3 {border-radius: 0 3px 3px 0;}
+.rr5 {border-radius: 0 5px 5px 0;}
+.rr10 {border-radius: 0 10px 10px 0;}
+
+/*
+* 左右浮动
+* @author slumber 2011-06-10.
+*/
+.fl {float: left;display: inline;}
+.fr {float: right;display: inline;}
+
+/*
+* margin-top
+* @author slumber 2011-06-10.
+*/
+.mt0{margin-top:0;}
+.mt5{margin-top:5px;}
+.mt10{margin-top:10px;}
+.mt15{margin-top:15px;}
+.mt20{margin-top:20px;}
+.mt25{margin-top:25px;}
+.mt30{margin-top:30px;}
+.mt35{margin-top:35px;}
+.mt40{margin-top:40px;}
+
+/*
+* margin-right
+* @author slumber 2011-06-10.
+*/
+.mr0{margin-right:0;}
+.mr5{margin-right:5px;}
+.mr10{margin-right:10px;}
+.mr15{margin-right:15px;}
+.mr20{margin-right:20px;}
+.mr25{margin-right:25px;}
+.mr30{margin-right:30px;}
+.mr35{margin-right:35px;}
+.mr40{margin-right:40px;}
+
+/*
+* margin-bottom
+* @author slumber 2011-06-10.
+*/
+.mb0 {margin-bottom:0;}
+.mb5 {margin-bottom:5px;}
+.mb10{margin-bottom:10px;}
+.mb15{margin-bottom:15px;}
+.mb20{margin-bottom:20px;}
+.mb25{margin-bottom:25px;}
+.mb30{margin-bottom:30px;}
+.mb35{margin-bottom:35px;}
+.mb40{margin-bottom:40px;}
+
+/*
+* margin-left
+* @author slumber 2011-06-10.
+*/
+.ml0{margin-left:0;}
+.ml5{margin-left:5px;}
+.ml10{margin-left:10px;}
+.ml15{margin-left:15px;}
+.ml20{margin-left:20px;}
+.ml25{margin-left:25px;}
+.ml30{margin-left:30px;}
+.ml35{margin-left:35px;}
+.ml40{margin-left:40px;}
+
+/*
+* padding-top
+* @author slumber 2011-06-10.
+*/
+.pt0{padding-top:0;}
+.pt5{padding-top:5px;}
+.pt10{padding-top:10px;}
+.pt15{padding-top:15px;}
+.pt20{padding-top:20px;}
+.pt25{padding-top:25px;}
+.pt30{padding-top:30px;}
+.pt40{padding-top:40px;}
+
+/*
+* padding-right
+* @author slumber 2011-06-10.
+*/
+.pr0{padding-right:0!important;}
+.pr5{padding-right:5px!important;}
+.pr10{padding-right:10px!important;}
+.pr15{padding-right:15px!important;}
+.pr20{padding-right:20px!important;}
+.pr25{padding-right:25px!important;}
+.pr30{padding-right:30px!important;}
+.pr35{padding-right:35px!important;}
+.pr40{padding-right:40px!important;}
+
+/*
+* padding-bottom
+* @author slumber 2011-06-10.
+*/
+.pb0{padding-bottom:0!important;}
+.pb5{padding-bottom:5px!important;}
+.pb10{padding-bottom:10px!important;}
+.pb15{padding-bottom:15px!important;}
+.pb20{padding-bottom:20px!important;}
+.pb25{padding-bottom:25px!important;}
+.pb30{padding-bottom:30px!important;}
+.pb35{padding-bottom:35px!important;}
+.pb40{padding-bottom:40px!important;}
+
+/*
+* padding-left
+* @author slumber 2011-06-10.
+*/
+.pl0{padding-left:0!important;}
+.pl5{padding-left:5px!important;}
+.pl10{padding-left:10px!important;}
+.pl15{padding-left:15px!important;}
+.pl20{padding-left:20px!important;}
+.pl25{padding-left:25px!important;}
+.pl30{padding-left:30px!important;}
+.pl35{padding-left:35px!important;}
+.pl40{padding-left:40px!important;}
+
+/*
+* padding-left padding-right  10
+* @author slumber 2011-06-10.
+*/
+.plr10{padding:0 10px;}
+
+/*
+* 我的家 sidebar padding
+* @author slumber 2011-06-10.
+*/
+.psb{padding: 20px 0 15px 25px;}
+
+/*
+* 用户名 
+* 男(bc)：蓝色
+* 女(gc)：粉色
+* @author slumber 2011-06-10.
+*/
+.gc{color:#E71F8D;}
+.bc{color:#09E;}
+.nc{color:#A3A9B5;}
+
+/*
+* overflow:hidden;
+* @author slumber 2011-06-10.
+*/
+.ofh {white-space: nowrap;word-wrap: normal;word-break: normal;text-overflow: ellipsis;-o-text-overflow: ellipsis;overflow: hidden;}
+
+/*
+* 各种清除浮动
+* @author slumber 2011-06-10.
+*/
+.clr{clear:both;}
+.clear_in{overflow:hidden;zoom:1}
+.clearfix:before, .clearfix:after { content:""; display:table; }
+.clearfix:after { clear:both; }
+.clearfix { zoom:1; }
+.clear{clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0;}
+
+/*
+* 定位
+* @author slumber 2011-08-09.
+*/
+.posr{ position:relative; }
+.posa{ position:absolute; }

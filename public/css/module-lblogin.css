@@ -1,0 +1,34 @@
+/*
+* lb登录框
+* @author slumber 2011-06-10.
+*/
+
+/*lb登录框*/
+
+#lb_login .login_box{background-color:#fff;padding:0 12px 24px;}
+#lb_login .login_form{padding:10px 25px 5px 10px;*padding-top:10px;width:280px;float:left;}
+#lb_login .login_form dd{float:left;width:63px;line-height:24px;height:26px;vertical-align:middle;text-align:right;color:#111;}
+#lb_login .login_form dt{color:#666;height:26px;margin-bottom:15px;_margin-bottom:10px;}
+#lb_login .login_form dt .text{width:215px;height:24px;border: 1px solid #c8c8c8;padding:0;}
+#lb_login .login_form dt .checkbox{height:14px; vertical-align: middle;margin-right:4px;}
+#lb_login .login_form .login_btn{cursor:pointer;display:inline-block;outline:none;text-align:center;text-shadow:0 1px 1px rgba(0,0,0,.3);-webkit-border-radius:4px;-moz-border-radius:4px;border:medium none;border-radius:4px;width:84px;height:29px;font-size:16px;color:#E8F0DE;background:#64991E;background:-webkit-gradient(linear, left top, left bottom, from(#7DB72F), to(#4E7D0E));background:-moz-linear-gradient(top, #7DB72F, #4E7D0E);-webkit-box-shadow:0 1px 2px rgba(0,0,0,.2);-moz-box-shadow:0 1px 2px rgba(0,0,0,.2);box-shadow:0 1px 2px rgba(0,0,0,.2);font:16px/100% Arial, Helvetica, sans-serif;font-weight:bold;}
+#lb_login .login_form .login_btn:hover{background:#538018;}
+#lb_login .login_form a{color:#8e8e8e;padding-left:12px;_margin_bottom:5px;}
+#lb_login .register_box span{line-height:16px;}
+#lb_login .reg_btn{cursor:pointer;display:inline-block;outline:none;text-align:center;text-shadow:0 1px 1px rgba(0,0,0,.3);-webkit-border-radius:4px;-moz-border-radius:4px;border:medium none;border-radius:4px;width:100px;height:28px;font-size:16px;margin:9px 0 22px;color:white;background:#F78D1D;background:-webkit-gradient(linear, left top, left bottom, from(#FAA51A), to(#F47A20));background:-moz-linear-gradient(top, #FAA51A, #F47A20);-webkit-box-shadow:0 1px 2px rgba(0,0,0,.2);-moz-box-shadow:0 1px 2px rgba(0,0,0,.2);box-shadow:0 1px 2px rgba(0,0,0,.2);font-family:'\5FAE\8F6F\96C5\9ED1';font-weight:normal;}
+#lb_login .reg_btn:hover{background:#f16206;}
+#lb_login .lb_bd{width:560px}
+#lb_login .l_o{width:110px;}
+#lb_login .l_o a{height:16px; line-height:16px;display:block; padding-left:20px; margin-top:12px; padding-top:2px; width:100px; *padding-top:5px; padding-top:5px\9; _padding-top:7px;color:#666;}
+#lb_login .l_o .signtaobao{background:url(/img/icon_tao.png) no-repeat left center; }
+#lb_login .l_o .signqq{background:url(/img/icon_qq.png) no-repeat left center; }
+#lb_login .login_fail{color:#FE2617;padding-left:74px;padding-top:10px;width:100px;visibility:hidden;}
+#lb_login .reg_or_weibo{width:150px;display:inline-block;border-left: 1px solid #c8c8c8;padding-left:30px;}
+#lb_login .lb_bd .lb_s{padding:55px;width:180px;height:45px;margin:0 auto;}
+#lb_login .lb_bd .lb_s .lb_s_img{width:43px; height:43px;display:block;float:left}
+#lb_login .lb_bd .lb_s .lb_s_t{color:#333;font-size:22px;float:left;display:block;margin:12px 0 0 12px;width:120px}
+#lb_login .login_form dt .check_code { width: 55px; }
+#lb_login .login_form .check_title { margin-top: 4px; }
+#lb_login .no_need{margin-top:40px;color:#4EA205;display:block;}
+#img_checkcode { width: 85px; height: 30px; vertical-align: -7px; margin-left: 8px; display:inline;vertical-align: -2px\9; }
+
